@@ -1,13 +1,362 @@
 nav .logo-header {
     width: 200px;
 }
-nav .logo-header img{
+
+.scrolled {
+    position: fixed;
+    width: 100%;
+    z-index: 12;
+    top: 0;
+}
+
+.top-header {
+    position: op;
+    width: 100%;
+    z-index: 12;
+    top: 0;
+}
+
+nav .logo-header img {
     width: 100%;
 }
 
 nav .logo-header h1 {
     font-size: 20px;
 }
-nav .top-header{
+
+nav .top-header {
     padding: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    .mobile {
+        display: none !important;
+    }
+
+    .home-heading {
+        height: 220px !important;
+        background-image: url('../Assets/banners/edu_home_mobile.webp') !important;
+        background-size: 100%;
+    }
+
+    .home-heading-title {
+        padding-bottom: 29px;
+    }
+
+    .home-heading-title h1 {
+        font-size: 1.2em;
+        font-weight: 700;
+
+    }
+
+    .home-heading-title p {
+        font-size: 0.8em !important;
+    }
+
+    .home-btn {
+        font-size: 0.7em;
+    }
+
+    .academic-heading .card {
+        height: 68vh;
+        margin: 10px;
+    }
+
+    .academic-heading .card .academic-details {
+        position: relative;
+    }
+
+    .academic-contact-details {
+        position: absolute;
+        margin-top: -100px;
+    }
+
+
+}
+
+
+
+.home-heading {
+    height: 320px;
+    background-image: url('../Assets/banners/edu_home.webp');
+    background-size: 100%;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+
+}
+
+.home-heading-bottom {
+    height: 170px;
+    background-image: url('../Assets/landing/Frame\ 2_4x.webp');
+    color: white;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* padding-top: 50px; */
+}
+
+.home-borders {
+    border-top: 1px solid rgb(204, 201, 201);
+    border-bottom: 1px solid rgb(204, 201, 201);
+    padding: 20px;
+
+}
+
+.home-btn {
+    background-color: blue;
+    border-radius: 30px;
+    padding: 5px;
+    text-transform: capitalize;
+    color: white;
+    border: none
+}
+
+.courselist {
+    display: flex;
+    gap: 10px;
+    float: right;
+}
+
+.courselist button {
+    border: none;
+    color: rgb(7, 7, 7);
+    border-radius: 5px;
+    background-color: white;
+    border-radius: 0px !important;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+}
+
+.courselist button.active {
+    border-bottom: 2px solid blue;
+}
+
+.courselist button:hover {
+    border-bottom: 2px solid blue;
+}
+
+.degreelist {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+
+.degreelist h5 {
+    margin: 0;
+    color: #333;
+}
+
+.degreelist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.degreelist li {
+    margin: 5px 0;
+}
+
+.degreelist a {
+    text-decoration: none;
+    color: #0b0b0b;
+    transition: color 0.3s ease;
+
+}
+
+.degreelist a:hover {
+    color: #007bff;
+}
+
+.degreelist .dree {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    padding: 1px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.degreelist .dree.active {
+    border-bottom: 2px solid blue;
+    padding: 3px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.course .university .card {
+    margin: 20px;
+    padding: 15px;
+
+}
+
+.course .university img {
+    width: 100%;
+}
+
+.coursenames input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.course_listitems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    height: 160px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #4697ee #f8f9fa;
+}
+
+.course_listitems::-webkit-scrollbar {
+    width: 5px;
+}
+
+.course_listitems::-webkit-scrollbar-thumb {
+    background: #007bff;
+    border-radius: 15px;
+}
+
+.course_listitems::-webkit-scrollbar-track {
+    background: #f8f9fa;
+}
+
+
+.course_listitems label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.item-main {
+    display: flex;
+    width: 2600px;
+    justify-content: space-evenly;
+    white-space: nowrap;
+
+}
+
+.item-body {}
+
+.items img {
+    width: 150px;
+}
+
+.items {
+    box-shadow: -6px 2px 9px rgb(199 195 195);
+    border-radius: 10px;
+
+
+}
+
+
+
+
+
+.academic-heading {
+    padding: 2px 10%;
+    position: relative;
+}
+
+.academic-heading h4 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 2%;
+    color: darkblue;
+}
+
+.academic-details {
+    height: 30vh;
+}
+
+.academic-heading .card {
+    margin: 2px;
+}
+
+.academic-details img {
+    height: 150px;
+    width: 150px;
+}
+
+.academic-details h5 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.academic-details h6 {
+    text-align: center;
+    font-size: 14px;
+    color: red;
+}
+
+.academic-contact-details {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    left: 0;
+    margin-left: -10px;
+}
+
+.university-content h5 {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.university-content h6 {
+    font-size: 10px;
+}
+
+.university-content img {
+    height: 100px;
+}
+.course{
+    padding: 20px;
+}
+
+.academic-contact-details button {
+    padding: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 10px;
+
+}
+
+.academic-contact-details svg {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.academic-contact-details .call {
+    background-color: darkblue;
+    color: white;
+}
+
+.academic-contact-details .whatsapp {
+    background-color: darkgreen;
+    color: white;
+}
+
+.academic-contact-details .mail {
+    background-color: rgb(81, 81, 164);
+    color: white;
 }
