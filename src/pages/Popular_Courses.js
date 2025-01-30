@@ -14,117 +14,117 @@ function Popular_Courses() {
 
     const [university, setUniversity] = useState([
         {
-          university_name: "Andhra_University" ,
-         university_img:Assets?.Andhra_University,
-         course_name:"BA(History)",
-         duration:"Duration:3 Years",
-         date:"Last Date To Apply:22-01-2023",
-         rank:"★5 Rank  ₹60,000" 
+            university_name: "Andhra University",
+            university_img: Assets?.Andhra_University,
+            course_name: "BA(History)",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:22-01-2023",
+            rank: "★5 Rank  ₹60,000"
         },
         {
-            university_name: "Bharathidasan_University" ,
-           university_img:Assets?.Bharathidasan_University,
-           course_name:"BSC Maths",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:28-02-2023",
-           rank:"★5 Rank  ₹80,000" 
-          },
-          {
-            university_name: "Centurion_University" ,
-           university_img:Assets?.Centurion_University,
-           course_name:"BSC CS",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:22-02-2023",
-           rank:"★5 Rank  ₹1,00,000" 
-          },
-          {
-            university_name: "Chandigarh_University" ,
-           university_img:Assets?.Chandigarh_University,
-           course_name:"BA(English)",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:10-02-2023",
-           rank:"★5 Rank  ₹80,000" 
-          },
-          {
-            university_name: "DYPatil_University" ,
-           university_img:Assets?.DYPatil_University,
-           course_name:"BSC Chemistry",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:29-01-2023",
-           rank:"★5 Rank  ₹60,000" 
-          },
-          {
-            university_name: "DrMGR_University" ,
-           university_img:Assets?.DrMGR_University,
-           course_name:"BSC CS",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:12-01-2023",
-           rank:"★5 Rank  ₹2,00,000" 
-          },
-          {
-            university_name: "Jain_University" ,
-           university_img:Assets?.Jain_University,
-           course_name:"BSC Zology",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:30-02-2023",
-           rank:"★5 Rank  ₹80,000" 
-          },
-          {
-            university_name: "KIIT_University" ,
-           university_img:Assets?.KIIT_University,
-           course_name:"BA Tamil",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:20-02-2023",
-           rank:"★5 Rank  ₹70,000" 
-          },
-          {
-            university_name: "Koneru_Lakshmaiah_Education_Foundation" ,
-           university_img:Assets?.Koneru_Lakshmaiah_Education_Foundation,
-           course_name:"BCOM CA",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:12-02-2023",
-           rank:"★5 Rank  ₹90,000" 
-          },
-          {
-            university_name: "Kurukshetra_University" ,
-           university_img:Assets?.Kurukshetra_University,
-           course_name:"BCOM",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:05-02-2023",
-           rank:"★5 Rank  ₹70,000" 
-          },
-          {
-            university_name: "Noida_International_University" ,
-           university_img:Assets?.Noida_International_University,
-           course_name:"BSC Physics",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:20-01-2023",
-           rank:"★5 Rank  ₹90,000" 
-          },
-          {
-            university_name: "OP_Jindal_Global_University" ,
-           university_img:Assets?.OP_Jindal_Global_University,
-           course_name:"BCOM CA",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:02-02-2023",
-           rank:"★5 Rank  ₹1,00,000" 
-          },
-          {
-            university_name: "Vignan_University" ,
-           university_img:Assets?.Vignan_University,
-           course_name:"BSC Maths",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:10-02-2023",
-           rank:"★5 Rank  ₹1,20,000" 
-          },
-          {
-            university_name: "Vivekananda_Global_University" ,
-           university_img:Assets?.Vivekananda_Global_University,
-           course_name:"BA English",
-           duration:"Duration:3 Years",
-           date:"Last Date To Apply:02-01-2023",
-           rank:"★5 Rank  ₹1,00,000" 
-          },
+            university_name: "Bharathidasan University",
+            university_img: Assets?.Bharathidasan_University,
+            course_name: "BSC Maths",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:28-02-2023",
+            rank: "★5 Rank  ₹80,000"
+        },
+        {
+            university_name: "Centurion University",
+            university_img: Assets?.Centurion_University,
+            course_name: "BSC CS",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:22-02-2023",
+            rank: "★5 Rank  ₹1,00,000"
+        },
+        {
+            university_name: "Chandigarh University",
+            university_img: Assets?.Chandigarh_University,
+            course_name: "BA(English)",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:10-02-2023",
+            rank: "★5 Rank  ₹80,000"
+        },
+        {
+            university_name: "DYPatil University",
+            university_img: Assets?.DYPatil_University,
+            course_name: "BSC Chemistry",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:29-01-2023",
+            rank: "★5 Rank  ₹60,000"
+        },
+        {
+            university_name: "DrMGR University",
+            university_img: Assets?.DrMGR_University,
+            course_name: "BSC CS",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:12-01-2023",
+            rank: "★5 Rank  ₹2,00,000"
+        },
+        {
+            university_name: "Jain University",
+            university_img: Assets?.Jain_University,
+            course_name: "BSC Zology",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:30-02-2023",
+            rank: "★5 Rank  ₹80,000"
+        },
+        {
+            university_name: "KIIT University",
+            university_img: Assets?.KIIT_University,
+            course_name: "BA Tamil",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:20-02-2023",
+            rank: "★5 Rank  ₹70,000"
+        },
+        {
+            university_name: "Koneru Lakshmaiah Education Foundation",
+            university_img: Assets?.Koneru_Lakshmaiah_Education_Foundation,
+            course_name: "BCOM CA",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:12-02-2023",
+            rank: "★5 Rank  ₹90,000"
+        },
+        {
+            university_name: "Kurukshetra University",
+            university_img: Assets?.Kurukshetra_University,
+            course_name: "BCOM",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:05-02-2023",
+            rank: "★5 Rank  ₹70,000"
+        },
+        {
+            university_name: "Noida International University",
+            university_img: Assets?.Noida_International_University,
+            course_name: "BSC Physics",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:20-01-2023",
+            rank: "★5 Rank  ₹90,000"
+        },
+        {
+            university_name: "OP Jindal Global University",
+            university_img: Assets?.OP_Jindal_Global_University,
+            course_name: "BCOM CA",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:02-02-2023",
+            rank: "★5 Rank  ₹1,00,000"
+        },
+        {
+            university_name: "Vignan University",
+            university_img: Assets?.Vignan_University,
+            course_name: "BSC Maths",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:10-02-2023",
+            rank: "★5 Rank  ₹1,20,000"
+        },
+        {
+            university_name: "Vivekananda Global University",
+            university_img: Assets?.Vivekananda_Global_University,
+            course_name: "BA English",
+            duration: "Duration:3 Years",
+            date: "Last Date To Apply:02-01-2023",
+            rank: "★5 Rank  ₹1,00,000"
+        },
     ])
 
     const degrees = ["ALL", "UG", "PG"];
@@ -204,26 +204,26 @@ function Popular_Courses() {
                     </div>
                 </div>
                 <div className="col-lg-9">
-                    <div className="university">
+                    <div className="university mt-3">
                         <div className="row">
-                            {university.slice(0, 8)?.map((data,index)=>{
-                                return(
+                            {university.slice(0, 8)?.map((data, index) => {
+                                return (
                                     <div className="col-lg-3">
 
-                                <div className="card">
-                                    <div className="university-content">
-                                         <img src={data.university_img} alt={data.university_name} />
-                                         <h5>{data.course_name}</h5>
-                                         <h6>{data.university_name}</h6>
-                                         <h6>{data.duration}</h6>
-                                         <h6>{data.date}</h6>
-                                         <h6>{data.rank}</h6>
+                                        <div className="card mt-3">
+                                            <div className="university-content">
+                                                <img src={data.university_img} alt={data.university_name} />
+                                                <h5>{data.course_name}</h5>
+                                                <h6>{data.university_name}</h6>
+                                                <h6>{data.duration}</h6>
+                                                <h6 >{data.date}</h6>
+                                                <h6 style={{fontSize:"20px"}}>{data.rank}</h6>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
                                 )
                             })}
-                            
+
                         </div>
                     </div>
                 </div>

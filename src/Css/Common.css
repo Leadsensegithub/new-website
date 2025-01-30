@@ -195,8 +195,10 @@ nav .top-header {
 }
 
 .course .university .card {
-    margin: 20px;
+    margin: 0px;
     padding: 15px;
+    cursor: pointer;
+    
 
 }
 
@@ -315,7 +317,7 @@ nav .top-header {
 }
 
 .university-content h5 {
-    font-size: 10px;
+    font-size: 17px;
     text-align: center;
     padding-top: 10px;
 }
@@ -327,8 +329,13 @@ nav .top-header {
 .university-content img {
     height: 100px;
 }
-.course{
+
+.course {
     padding: 20px;
+}
+
+.university .card:hover {
+
 }
 
 .academic-contact-details button {
