@@ -75,7 +75,7 @@ function Uni_register() {
 
     return (
         <div>
-            <main className='iniversities'>
+            <main className='iniversities mt-5'>
                 <div className='text-center'>
                     <h1>welcome to our top universities</h1>
                     <p> when an unknow printer tok a gal ut also the leap into electronic typesetting lorem lorem universities top welocme to the vision.</p>
@@ -95,9 +95,9 @@ function Uni_register() {
                     </div>
                 </div>
 
-                <div className='uni-content row'>
+                <div className='uni-content row mt-3 pt-5 mt-5 '>
                     <div className='col-lg-8'>
-                        <h1>register now</h1>
+                        <h1 className='text-capitalize'>register now</h1>
                         <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis  rhoncus ut,</h4>
 
 
@@ -118,7 +118,69 @@ function Uni_register() {
                         </div>
                     </div>
 
-                     
+
+                    <div className='col-lg-4'>
+                        <div className='row form '>
+                            <div className='col-lg-12 col-sm-12 col-12 mt-3'>
+                                <h3 className='text-center mt-3 mb-3 text-dark'>contact academic counsellor</h3>
+                            </div>
+
+                            <div className='col-lg-12 col-sm-12 col-12 mt-3'>
+                                <span className='cost'>no cost EMI from  &#8377;5,999/-</span>
+                            </div>
+
+                            <div className='col-lg-12 col-sm-12 col-12 input mt-3'>
+                                <div className='input-form'>
+                                    <label>full name</label>
+                                    <input type='text' className='form-control' />
+                                </div>
+                            </div>
+
+                            <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
+                                <label>gender</label>
+                                <input type='text' className='form-control' />
+                            </div>
+
+                            <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
+                                <label>email address  </label>
+                                <input type='text' className='form-control' />
+                            </div>
+
+
+
+
+                            <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
+                                <label>mobile number</label>
+                                <input type='text' className='form-control' />
+                            </div>
+
+                            <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
+                                <label>date of birth</label>
+                                <input type='text' className='form-control' />
+                            </div>
+
+                            <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
+                                <label>state</label>
+                                <input type='text' className='form-control' />
+                            </div>
+
+                            <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
+                                <label>city</label>
+                                <input type='text' className='form-control' />
+                            </div>
+
+
+                            <div className='col-lg-12 col-sm-12 col-12 form-btn mt-3'>
+                                <button >sumbit</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
 
                 </div>
 

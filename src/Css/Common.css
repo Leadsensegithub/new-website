@@ -176,6 +176,47 @@ nav .top-header {
     color: #007bff;
 }
 
+.form {
+    border: 1px solid black;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+
+.cost {
+    text-transform: capitalize;
+    font-size: 1em;
+    background-color: gray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+}
+
+
+
+.form .input-form {
+    position: relative;
+
+}
+
+
+.form .input-form label {
+    position: absolute;
+    top: -12px;
+    z-index: 2;
+    background-color: white;
+    color: black;
+}
+
+.form-btn {
+    margin-left: 180px;
+}
+
+.uni-content {
+    background-color: rgb(7, 7, 88);
+    color: whitesmoke;
+}
+
 .degreelist .dree {
     margin-top: 10px;
     display: flex;
@@ -198,7 +239,7 @@ nav .top-header {
     margin: 0px;
     padding: 15px;
     cursor: pointer;
-    
+
 
 }
 
@@ -334,9 +375,7 @@ nav .top-header {
     padding: 20px;
 }
 
-.university .card:hover {
-
-}
+.university .card:hover {}
 
 .academic-contact-details button {
     padding: 10px;
@@ -367,30 +406,36 @@ nav .top-header {
     background-color: rgb(81, 81, 164);
     color: white;
 }
-.alumni-heading{
+
+.alumni-heading {
     margin-top: 90px;
-     background-color:rgb(7, 7, 88);
+    background-color: rgb(7, 7, 88);
     height: 90vh;
 }
-.alumni-heading h4{
+
+.alumni-heading h4 {
     text-align: center;
-    color:white;
+    color: white;
     padding-bottom: 10px;
     padding-top: 30px;
 }
-.alumni-heading h2{
+
+.alumni-heading h2 {
     text-align: center;
     color: red;
 }
-.alumni-heading h5{
+
+.alumni-heading h5 {
     padding-top: 2px;
     padding-bottom: 5px;
 }
-.alumni-heading h5{
+
+.alumni-heading h5 {
     text-align: center;
     color: white;
 }
-.alumni-images{
+
+.alumni-images {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -398,11 +443,12 @@ nav .top-header {
     justify-content: center;
 }
 
-.alumni-heading .card img{
+.alumni-heading .card img {
     height: 100px;
     width: 100px;
 }
-.alumni-images .card .student-alumni-details h6{
+
+.alumni-images .card .student-alumni-details h6 {
     text-align: center;
     padding-top: 10px;
     color: darkblue;
