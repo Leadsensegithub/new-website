@@ -1,17 +1,29 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import TopHeader from "../components/Topheader";
 import Navbar from "../components/Navbar";
 
 import { Navigate, Route, Routes } from "react-router-dom";
 import route from "../Route/Route";
 import Footer from "../pages/Header_files/Footer";
+import Loaders from "../pages/Loader/Loader";
 
 
 function Default_layout() {
+    const [Loader, setLoader] = useState(true)
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoader(false);
+        }, 2000);
+
+        return () => clearTimeout(timer);
+    }, []);
 
     return (
         <>
-            <div className="default_layout">
+            {Loader ? <>
+                <Loaders />
+            </> : <div className="default_layout">
                 <div className="row">
                     <div className="col-lg-12">
                         <TopHeader />
@@ -44,8 +56,9 @@ function Default_layout() {
                     </div>
 
                 </div>
-            </div>
+            </div>}
         </>
+
     )
 }
 export default Default_layout
