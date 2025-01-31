@@ -4,7 +4,7 @@ import "../../Css/Common.css";
 import Assets from "../../Assets/Assets";
 
 function Popular_Courses() {
-    const [courses] = useState([
+    const [courses,setCourses] = useState([
         "Sort by",
         "Recommendation",
         "Fee - Low to High",
@@ -147,7 +147,7 @@ function Popular_Courses() {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="courselist">
-                        {courses.map((filter, index) => (
+                        {courses?.map((filter, index) => (
                             <button
                                 key={index}
                                 className={index === activeIndex ? "active" : ""}
@@ -163,7 +163,7 @@ function Popular_Courses() {
                         <div>
                             <h5>Degree</h5>
                             <div className="d-flex">
-                                {degrees.map((degree, index) => (
+                                {degrees?.map((degree, index) => (
                                     <div
                                         key={index}
                                         className={index === DegreeactiveIndex ? "dree active" : "dree"}
@@ -180,7 +180,7 @@ function Popular_Courses() {
                             <h5>Course</h5>
                             <input type="text" placeholder="Search" />
                             <div className="course_listitems">
-                                {courseNames.map((course, index) => (
+                                {courseNames?.map((course, index) => (
                                     <label key={index}>
                                         <input type="radio" name="coursename" />
                                         {course}
@@ -193,7 +193,7 @@ function Popular_Courses() {
                             <h5>University's</h5>
                             <input type="text" placeholder="Search" />
                             <div className="course_listitems">
-                                {universities.map((university, index) => (
+                                {universities?.map((university, index) => (
                                     <label key={index}>
                                         <input type="radio" name="universityname" />
                                         {university}
@@ -206,7 +206,7 @@ function Popular_Courses() {
                 <div className="col-lg-9">
                     <div className="university mt-3">
                         <div className="row">
-                            {university.slice(0, 8)?.map((data, index) => {
+                            {university?.slice(0, 8)?.map((data, index) => {
                                 return (
                                     <div className="col-lg-3">
 

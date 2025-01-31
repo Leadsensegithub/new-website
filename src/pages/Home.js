@@ -5,8 +5,10 @@ import Home_header from "./Header_files/Home_header";
 import Popular_Courses from "./Header_files/Popular_Courses";
 import Academic_counsellor from "./Header_files/Academic_counsellor";
 import Student_alumni from "./Header_files/Student_alumni";
+import Faq from "./Header_files/Faq";
 
 function Home() {
+
   return (
     <div className="home_page">
       <div className="row">
@@ -25,9 +27,11 @@ function Home() {
         <div className="col-lg-12">
           <Student_alumni />
         </div>
-
+        <div className="col-lg-12">
+         <Faq/>
+        </div>
       </div>
-
+    
     </div>
   );
 }

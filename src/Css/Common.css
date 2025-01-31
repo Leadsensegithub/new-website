@@ -524,5 +524,21 @@ nav .top-header {
 }
 
 
+/* faq */
+
+.faq_button{
+    background-color: #949090;
+    padding: 10px;
+    border-radius: 2px;
+}
+.faq_button .faq_inner{
+    background-color: white;
+}
+.faq_button .faq_inner button{
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(151, 148, 148);
+}
+
 
 
