@@ -598,3 +598,7 @@ nav .top-header {
     text-decoration: underline;
     transition: 7s;
 }
+
+.ptag_ft p{
+  margin-bottom: 0%;
+}

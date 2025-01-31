@@ -23,7 +23,7 @@ function Footer() {
         <div className='footer'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-4 mt-4'>
 
 
                         <div className='footer-icons'>
@@ -52,7 +52,7 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div className='col-lg-4'>
+                    <div className='col-lg-5 mt-4'>
                         <div> <h4>Our Links</h4></div>
                         <div className='row'>
                             <div className='col-lg-6'>
@@ -81,8 +81,36 @@ function Footer() {
 
 
                     </div>
-                    <div className='col-lg-4'>
-                        <h4>Contact Us</h4>
+                    <div className='col-lg-3 mt-4'>
+                        <div className='footer_contact'>
+                            <h4>Contact Us</h4>
+                        </div>
+                        <div className='row'>
+                            <div className='d-flex ptag_ft'>
+                                <div>
+                                   <IoMdCall/>
+                                </div>
+                                <div>
+                                    <p>+91 9087878687686</p>
+                                </div>
+                            </div>
+                            <div className='d-flex ptag_ft'>
+                                <div>
+                               <FaRegMessage/>
+                                </div>
+                                <div>
+                                    <p>clgwebsite@gmail.com</p>
+                                </div>
+                            </div>
+                            <div className='d-flex ptag_ft'>
+                                <div>
+                                <IoLocationOutline/>
+                                </div>
+                                <div>
+                                    <p>chennai</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
