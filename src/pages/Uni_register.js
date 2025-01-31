@@ -81,21 +81,26 @@ function Uni_register() {
                     <p> when an unknow printer tok a gal ut also the leap into electronic typesetting lorem lorem universities top welocme to the vision.</p>
                 </div>
                 <div className='uni-image'>
+                    <div className='uni-image'>
 
-                    <div className='item-main'>
-                        {image?.map((data, index) => {
-                            return (
-                                <div className='item-body '>
+                        <div className='item-main'>
+                            {image?.map((data, index) => {
+                                return (
                                     <div className='items'>
                                         <img src={data?.img1}></img>
                                     </div>
-                                </div>
-                            )
-                        })}
+
+                                )
+                            })}
+                        </div>
                     </div>
                 </div>
-
-                <div className='uni-content row mt-3 pt-5 mt-5 '>
+             
+             <div className='uni-content'>
+            
+                <div className='container-fluid'>
+                <div className='university_form'>
+                <div className='row  mt-5'>
                     <div className='col-lg-8'>
                         <h1 className='text-capitalize'>register now</h1>
                         <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis  rhoncus ut,</h4>
@@ -120,7 +125,8 @@ function Uni_register() {
 
 
                     <div className='col-lg-4'>
-                        <div className='row form '>
+                     <div className='register_form'>
+                        <div className='row '>
                             <div className='col-lg-12 col-sm-12 col-12 mt-3'>
                                 <h3 className='text-center mt-3 mb-3 text-dark'>contact academic counsellor</h3>
                             </div>
@@ -170,15 +176,19 @@ function Uni_register() {
                             </div>
 
 
-                            <div className='col-lg-12 col-sm-12 col-12 form-btn mt-3'>
-                                <button >sumbit</button>
+                            <div className='col-lg-12 col-sm-12 col-12 '>
+                               <div className='form_sumbit'> 
+                                <button className='btn btn-primary'>sumbit</button>
+                                </div> 
                             </div>
 
                         </div>
+                       </div>
+                       </div> 
+                    </div>
                     </div>
 
-
-
+                    </div>
 
 
 
