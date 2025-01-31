@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../Css/Common.css";
-import Assets from "../Assets/Assets";
+import "../../Css/Common.css";
+import Assets from "../../Assets/Assets";
 import { IoCall } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";

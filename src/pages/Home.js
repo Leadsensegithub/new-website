@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import '../Css/Common.css'
-import Uni_register from "./Uni_register";
-import Home_header from "./Home_header";
-import Popular_Courses from "./Popular_Courses";
-import Academic_counsellor from "./Academic_counsellor";
-import Student_alumni from "./Student_alumni";
+import Uni_register from "./Header_files/Uni_register";
+import Home_header from "./Header_files/Home_header";
+import Popular_Courses from "./Header_files/Popular_Courses";
+import Academic_counsellor from "./Header_files/Academic_counsellor";
+import Student_alumni from "./Header_files/Student_alumni";
 
 function Home() {
   return (
@@ -17,14 +17,15 @@ function Home() {
           <Popular_Courses />
         </div>
         <div className="col-lg-12">
-          <Academic_counsellor />
-        </div>  
-        <div className="col-lg-12">
-          <Student_alumni />
-        </div>  
-        <div className="col-lg-12">
           <Uni_register />
         </div>
+        <div className="col-lg-12">
+          <Academic_counsellor />
+        </div>
+        <div className="col-lg-12">
+          <Student_alumni />
+        </div>
+
       </div>
 
     </div>

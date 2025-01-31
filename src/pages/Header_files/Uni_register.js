@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Assets from '../Assets/Assets'
+import Assets from '../../Assets/Assets'
 
 function Uni_register() {
 
@@ -80,7 +80,7 @@ function Uni_register() {
                     <h1>welcome to our top universities</h1>
                     <p> when an unknow printer tok a gal ut also the leap into electronic typesetting lorem lorem universities top welocme to the vision.</p>
                 </div>
-                <div className='uni-image'>
+                <div className='uni-image mt-5 mb-5'>
                     <div className='uni-image'>
 
                         <div className='item-main'>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../Css/Common.css";
-import Assets from "../Assets/Assets";
+import "../../Css/Common.css";
+import Assets from "../../Assets/Assets";
 
 function Student_alumni() {
   const [stuAlumni, setStuAlumni] = useState([

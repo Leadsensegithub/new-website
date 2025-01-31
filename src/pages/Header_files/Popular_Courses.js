@@ -1,7 +1,7 @@
 import React, { use, useState } from "react";
 import { Link } from "react-router-dom";
-import "../Css/Common.css";
-import Assets from "../Assets/Assets";
+import "../../Css/Common.css";
+import Assets from "../../Assets/Assets";
 
 function Popular_Courses() {
     const [courses] = useState([
