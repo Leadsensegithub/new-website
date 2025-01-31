@@ -8,6 +8,7 @@ import Student_alumni from "./Header_files/Student_alumni";
 import Faq from "./Header_files/Faq";
 
 function Home() {
+  
 
   return (
     <div className="home_page">
@@ -21,17 +22,17 @@ function Home() {
         <div className="col-lg-12">
           <Uni_register />
         </div>
-        <div className="col-lg-12">
+        {/* <div className="col-lg-12">
           <Academic_counsellor />
-        </div>
-        <div className="col-lg-12">
+        </div> */}
+        {/* <div className="col-lg-12">
           <Student_alumni />
-        </div>
+        </div> */}
         <div className="col-lg-12">
-         <Faq/>
+          <Faq />
         </div>
       </div>
-    
+
     </div>
   );
 }

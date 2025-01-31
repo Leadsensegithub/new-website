@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import Assets from "../Assets/Assets";
+import Popular_Courses from "../pages/Header_files/Popular_Courses";
 
 const Navbar = () => {
   const styles = {
@@ -107,7 +108,7 @@ const Navbar = () => {
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
-  
+
   return (
     <nav style={styles.nav} className={`header ${isScrolled ? "scrolled" : ""}`}>
       <div className="logo-header" style={styles.logo}>
@@ -132,6 +133,9 @@ const Navbar = () => {
         <div style={styles.modalOverlay} onClick={closeModal}>
           <div style={styles.modalContent} onClick={(e) => e.stopPropagation()}>
             <button onClick={closeModal} style={styles.closeButton}>Close</button>
+            <div>
+              <Popular_Courses />
+            </div>
           </div>
         </div>
       )}

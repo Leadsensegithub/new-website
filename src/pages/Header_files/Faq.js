@@ -48,44 +48,37 @@ const Faq = () => {
         ]
     )
 
-const [num,setNum] =useState(12)
+    const [num, setNum] = useState(0)
 
-  const handleanswer=(i)=>{
-
-  setNum(i)
-
-
-  }
-
-
+    const handleAnswer = (index) => {
+        setNum(num === index ? null : index);
+    };
     return (
         <div className='faq'>
             <div className='container'>
-                <div><h1>Let's clear up some doubts </h1></div>
+                <div className='text-center'>
+                    <h1>Let's clear up some doubts </h1>
+                </div>
 
-                <div className='row text-center'>
+                <div className='row text-center mt-5'>
                     <div className='col-lg-12 border'>
-                       
-                        {  ans.map((data,index)=>{
-                             return (
-                                
-                        <div className='faq_button'>
 
-                        <div className='faq_inner'>
+                        {ans.map((data, index) => {
+                            return (
 
-                            <div>
-                                <button onClick={()=>handleanswer(index)}>{data.question}</button>
-                            </div>
+                                <div className="faq_button">
+                                    <div className="faq_inner">
+                                        <button onClick={() => handleAnswer(index)}>{index + 1}. {data.question}</button>
+                                        {num === index && (
+                                            <div className="faq_answer">
+                                                <p style={{ textAlign: "start", padding: "10px" }}>{data.answer}</p>
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
 
-                            <div id={index}  style={{display:(num==index)?"block":"none"}} >
-                                <p>{data.answer}</p>
-                            </div>
-                        </div>
-                    </div>
-                             )
-                        })
-
-}
+                            )
+                        })}
                     </div>
 
                 </div>
