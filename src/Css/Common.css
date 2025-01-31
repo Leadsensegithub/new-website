@@ -70,13 +70,15 @@ nav .top-header {
         position: absolute;
         margin-top: -100px;
     }
-    .item-main::before{
+
+    .item-main::before {
         width: 50px;
     }
-    .items img{
-        width: 50px; 
+
+    .items img {
+        width: 50px;
     }
- 
+
 
 
 }
@@ -105,7 +107,7 @@ nav .top-header {
     text-align: center;
     align-items: center;
     /* padding-top: 50px; */
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .home-borders {
@@ -408,137 +410,147 @@ nav .top-header {
 
 
 
-.form{
+.form {
     border: 1px solid black;
     height: 400px;
     width: 100%;
-    background-color:white;
-}
-.cost{
-  text-transform: capitalize;
-  font-size: 1em;
-  background-color: gray;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  padding: 5px;
+    background-color: white;
 }
 
-
-
-.form .input-form{
-     position: relative;
-
+.cost {
+    text-transform: capitalize;
+    font-size: 1em;
+    background-color: gray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
 }
 
 
-.form .input-form label{
+
+.form .input-form {
+    position: relative;
+
+}
+
+
+.form .input-form label {
     position: absolute;
     top: -12px;
-     z-index: 2;
-     background-color: white;
-     color:black;
+    z-index: 2;
+    background-color: white;
+    color: black;
 }
 
 
-.uni-content{
+.uni-content {
 
     color: whitesmoke;
-    background-color:rgb(7, 7, 88);
+    background-color: rgb(7, 7, 88);
 
 }
 
 /* image animation */
 
-.item-main{
+.item-main {
     display: flex;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
 }
- .item-main:hover .items{
-     animation-play-state: paused;
- }
 
-.item-main::before{
+.item-main:hover .items {
+    animation-play-state: paused;
+}
+
+.item-main::before {
     content: "";
-     position: absolute;
-     height: 100px;
-     width: 120px;
-     background-color: white;
-     top: 0;
-     left: 0;
-     z-index: 10;
-     
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
 }
 
 
-@media only screen and (max-width: 900px){
-    .item-main::before{
+@media only screen and (max-width: 900px) {
+    .item-main::before {
         width: 20px;
     }
-    .items img{
-        width: 80px !important; 
+
+    .items img {
+        width: 80px !important;
     }
-  .item-main{
-    margin: 50px 0px;
-  }
+
+    .item-main {
+        margin: 50px 0px;
+    }
 
 }
 
-.uni-content .university_form{
+.uni-content .university_form {
     padding: 1%;
 }
-.uni-content .register_form{
+
+.uni-content .register_form {
     background-color: white;
     padding: 10px;
     color: black;
     border-radius: 5px;
 }
-.uni-content .form_sumbit{
+
+.uni-content .form_sumbit {
     display: flex;
     justify-content: center;
     margin-top: 7px;
 }
 
-.items{
+.items {
 
     animation: slide 20s infinite linear;
     display: inline-block;
-     margin-left: 60px;
+    margin-left: 60px;
 
 }
-.items img{
-      width: 200px;
-      box-shadow: -6px 2px 9px rgb(199 195 195);
-      border-radius: 10px;
- }
+
+.items img {
+    width: 200px;
+    box-shadow: -6px 2px 9px rgb(199 195 195);
+    border-radius: 10px;
+}
 
 
 @keyframes slide {
-     from{
-   transform: translateX(0);
-     }
-     to{
-       transform: translateX(-600%);
-     }
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-600%);
+    }
 }
 
 
 /* faq */
-.faq{
+.faq {
     background-color: #dfdede;
 }
 
-.faq_button{
-   
+.faq_button {
+
     padding: 10px;
     border-radius: 2px;
 }
-.faq_button .faq_inner{
+
+.faq_button .faq_inner {
     background-color: white;
     border-radius: 10px;
 }
-.faq_button .faq_inner button{
+
+.faq_button .faq_inner button {
     width: 100%;
     background-color: white;
     border: 1px solid rgb(151, 148, 148);
@@ -549,4 +561,40 @@ nav .top-header {
 }
 
 
+.footer .circule {
+    background-color: gray;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: wheat;
+    margin-right: 10px;
+    margin-top: 20px;
+}
 
+.footer_icons {
+    padding: 0px 50px;
+}
+
+.media_icons {
+
+    display: flex;
+
+}
+
+.footer {
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.footer_items h6 {
+    cursor: pointer;
+}
+
+.footer_items h6:hover {
+    text-decoration: underline;
+    transition: 7s;
+}

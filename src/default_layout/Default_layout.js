@@ -4,10 +4,11 @@ import Navbar from "../components/Navbar";
 
 import { Navigate, Route, Routes } from "react-router-dom";
 import route from "../Route/Route";
+import Footer from "../pages/Header_files/Footer";
 
 
 function Default_layout() {
-    
+
     return (
         <>
             <div className="default_layout">
@@ -37,6 +38,9 @@ function Default_layout() {
                                 <Route path="/" element={<Navigate to="dashboard" replace />} />
                             </Routes>
                         </Suspense>
+                    </div>
+                    <div className="col-lg-12">
+                        <Footer />
                     </div>
 
                 </div>

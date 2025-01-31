@@ -8,7 +8,7 @@ import Student_alumni from "./Header_files/Student_alumni";
 import Faq from "./Header_files/Faq";
 
 function Home() {
-  
+
 
   return (
     <div className="home_page">
