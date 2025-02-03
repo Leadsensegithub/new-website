@@ -356,53 +356,67 @@ nav .top-header {
     background-color: rgb(81, 81, 164);
     color: white;
 }
-
-.alumni-heading {
-    margin-top: 90px;
-    background-color: rgb(7, 7, 88);
-    height: 90vh;
-    overflow-y: scroll;
+.alumni-heading{
+    background-color: darkblue;
+    height: 100vh;
 }
-
-.alumni-heading h4 {
+.alumni-heading h4{
     text-align: center;
-    color: white;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    margin-top: 80px;
+    color:white;
+    padding-top: 15px;
 }
-
-.alumni-heading h2 {
+.alumni-heading h2{
     text-align: center;
     color: red;
-}
-
-.alumni-heading h5 {
     padding-top: 2px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
-
-.alumni-heading h5 {
+.alumni-heading h5{
     text-align: center;
-    color: white;
+    color:white;
 }
-
 .alumni-images {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
+
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+   }
+  
+    
+  .alumni-images:hover {
+    animation-play-state: paused; 
+  }
+  .alumni-images::before {
+    content: "";
+    position: absolute;
+   
+    top: 0;
+    left: 0;
+    z-index: 10;
+
 }
 
-.alumni-heading .card img {
-    height: 100px;
-    width: 100px;
+.student-alumni-details{
+    animation: slide 20s infinite linear;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 50px;
+    
 }
-
-.alumni-images .card .student-alumni-details h6 {
+  .student-alumni-details img {
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 2px;
+  }
+    
+.alumni-images .student-alumni-details h6 {
     text-align: center;
     padding-top: 10px;
-    color: darkblue;
+    color: white;
 }
 
 

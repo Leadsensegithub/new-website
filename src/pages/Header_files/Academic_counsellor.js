@@ -8,23 +8,23 @@ import { IoMail } from "react-icons/io5";
 function Academic_counsellor() {
   const [Ac, setAc] = useState([
     {
-      img: Assets?.priya,
-      name: "Priya",
+      img: Assets?.profile,
+      name: "John",
       years: "5 Years Experience",
     },
     {
-      img: Assets?.gayathri,
-      name: "Gayathri",
+      img: Assets?.profile,
+      name: "Mary",
       years: "4 Years Experience",
     },
     {
-      img: Assets?.sakthi,
-      name: "Sakthi",
+      img: Assets?.profile,
+      name: "Jency",
       years: "4 Years Experience",
     },
     {
-      img: Assets?.priyanka,
-      name: "Priyanka",
+      img: Assets?.profile,
+      name: "Rajesh",
       years: "3 Years Experience",
     },
   ]);

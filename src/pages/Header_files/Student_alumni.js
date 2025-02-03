@@ -5,77 +5,90 @@ import Assets from "../../Assets/Assets";
 function Student_alumni() {
   const [stuAlumni, setStuAlumni] = useState([
     {
-      img: Assets?.priya,
+      img: Assets?.kaviya,
+      companyname:"TCS"
+    },
+    {
+      img: Assets?.Gowtham,
+      companyname:"Infosys"
+    },
+    {
+      img: Assets?.Ananth,
+      companyname:"Cognizant"
+    },
+    {
+      img: Assets?.Deepak,
       companyname:"HCL"
     },
     {
-      img: Assets?.priya,
+      img: Assets?.Keerthi,
+      companyname:"Wipro"
+    },
+    {
+      img: Assets?.Sreya,
+      companyname:"Capgemini"
+    },
+    {
+      img: Assets?.Janani,
+      companyname:"IBM"
+    },
+    {
+      img: Assets?.SriRam,
+      companyname:"PayPal"
+    },
+    {
+      img: Assets?.Karthik,
       companyname:"HCL"
     },
     {
-      img: Assets?.priya,
+      img: Assets?.Suba,
+      companyname:"Infosys"
+    },
+    {
+      img: Assets?.Mathan,
       companyname:"HCL"
     },
     {
-      img: Assets?.priya,
-      companyname:"HCL"
+      img: Assets?.Anu,
+      companyname:"Wipro"
     },
     {
-      img: Assets?.priya,
-      companyname:"HCL"
+      img: Assets?.Kumar,
+      companyname:"PayPal"
     },
     {
-      img: Assets?.priya,
-      companyname:"HCL"
+      img: Assets?.Siva,
+      companyname:"IBM"
     },
     {
-      img: Assets?.priya,
-      companyname:"HCL"
+      img: Assets?.Diya,
+      companyname:"ZOHO"
     },
     {
-      img: Assets?.priya,
-      companyname:"HCL"
+      img: Assets?.Priya,
+      companyname:"Oracle"
     },
     {
-      img: Assets?.priya,
-      companyname:"HCL"
+      img: Assets?.Selvi,
+      companyname:"Capgemini"
     },
     {
-      img: Assets?.priya,
-      companyname:"HCL"
+      img: Assets?.Harish,
+      companyname:"ZOHO"
     },
     {
-      img: Assets?.priya,
-      companyname:"HCL"
+      img: Assets?.Maha,
+      companyname:"PayPal"
+    },  
+    {
+      img: Assets?.Krishna,
+      companyname:"IBM"
     },
     {
-      img: Assets?.priya,
-      companyname:"HCL"
-    },
-    {
-      img: Assets?.priya,
-      companyname:"HCL"
-    },
-    {
-      img: Assets?.priya,
-      companyname:"HCL"
-    },
-    {
-      img: Assets?.priya,
-      companyname:"HCL"
-    },
-    {
-      img: Assets?.priya,
-      companyname:"HCL"
-    },
-    {
-      img: Assets?.priya,
-      companyname:"HCL"
-    },
-    {
-      img: Assets?.priya,
-      companyname:"HCL"
+      img: Assets?.Pavi,
+      companyname:"Infosys"
     }
+
   ]);
   return (
     <div className="alumni-heading">
@@ -88,13 +101,11 @@ function Student_alumni() {
             {stuAlumni?.map((data, index) => {
               return (
                 <div className="student-alumni-images" key={index}>
-                  <div className="card">
                     <div className="student-alumni-details">
                       <img src={data.img} alt={data.name} />
                       <h6>{data.companyname}</h6>
                     </div>
                   </div>
-                </div>
               );
             })}
           </div>

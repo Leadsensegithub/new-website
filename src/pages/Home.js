@@ -22,12 +22,12 @@ function Home() {
         <div className="col-lg-12">
           <Uni_register />
         </div>
-        {/* <div className="col-lg-12">
+        <div className="col-lg-12">
           <Academic_counsellor />
-        </div> */}
-        {/* <div className="col-lg-12">
+        </div>
+        <div className="col-lg-12">
           <Student_alumni />
-        </div> */}
+        </div>
         <div className="col-lg-12">
           <Faq />
         </div>

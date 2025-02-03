@@ -31,13 +31,30 @@ import OP_Jindal_Global_University from './colloge background/OP_Jindal_Global_U
 import Vignan_University from './colloge background/Vignan_University.png'
 import Vivekananda_Global_University from './colloge background/Vivekananda_Global_University.jpeg'
 import academic from './Academic/academic.png'
-import priya from './Academic/priya.png'
-import pavithra from './Academic/pavithra.png'
-import priyanka from './Academic/priyanka.png'
-import arun from './Academic/arun.png'
-import sakthi from './Academic/sakthi.png'
-import gayathri from './Academic/gayathri.png'
-
+import profile from './Academic/profile.png'
+import kaviya from './Academic/kaviya.png'
+import Gowtham from './Academic/Gowtham.png'
+import Ananth from './Academic/Ananth.png'
+import Deepak from './Academic/Deepak.png'
+import Keerthi from './Academic/Keerthi.png'
+import Sreya from './Academic/Sreya.png'
+import Janani from './Academic/Janani.png'
+import SriRam from './Academic/SriRam-.png'
+import Sinthu from './Academic/Sinthu.png'
+import Karthik from './Academic/Karthik.png'
+import Mathan from './Academic/Mathan.png'
+import Suba from './Academic/Suba.png'
+import Anu from './Academic/Anu.png'
+import Siva from './Academic/Siva.png'
+import Harish from './Academic/Harish.png'
+import Sri from './Academic/Sri.png'
+import Selvi from './Academic/Selvi.png'
+import Priya from './Academic/Priya.png'
+import Diya from './Academic/Diya.png'
+import Kumar from './Academic/Kumar.png'
+import Maha from './Academic/Maha.png'
+import Krishna from './Academic/Krishna.png'
+import Pavi from './Academic/Pavi.png'
 
 
 const Assets = {
@@ -74,12 +91,30 @@ const Assets = {
     Vignan_University: Vignan_University,
     Vivekananda_Global_University: Vivekananda_Global_University,
     academic:academic,
-    priya:priya,
-    pavithra:pavithra,
-    priyanka:priyanka,
-    arun:arun,
-     sakthi:sakthi,
-    gayathri:gayathri,
+   profile:profile,
+   kaviya:kaviya,
+   Gowtham:Gowtham,
+   Ananth:Ananth,
+   Deepak:Deepak,
+   Keerthi:Keerthi,
+   Sreya:Sreya,
+   Janani:Janani,
+   SriRam:SriRam,
+   Sinthu:Sinthu,
+   Karthik:Karthik,
+   Suba:Suba,
+   Mathan:Mathan,
+   Anu:Anu,
+   Siva:Siva,
+   Harish:Harish,
+   Sri:Sri,
+   Selvi:Selvi,
+   Priya:Priya,
+   Diya:Diya,
+   Kumar:Kumar,
+   Maha:Maha,
+   Krishna:Krishna,
+   Pavi:Pavi,
    
 }
 export default Assets
