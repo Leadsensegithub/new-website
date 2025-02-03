@@ -127,7 +127,7 @@ nav .top-header {
 }
 
 .home-btn {
-    background-color: blue;
+    background-color: #087FFF;
     border-radius: 30px;
     padding: 5px;
     text-transform: capitalize;
@@ -153,11 +153,11 @@ nav .top-header {
 }
 
 .courselist button.active {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #087FFF;
 }
 
 .courselist button:hover {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #087FFF;
 }
 
 .degreelist {
@@ -192,7 +192,7 @@ nav .top-header {
 }
 
 .degreelist a:hover {
-    color: #007bff;
+    color:#087FFF;
 }
 
 .degreelist .dree {
@@ -207,7 +207,7 @@ nav .top-header {
 }
 
 .degreelist .dree.active {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #087FFF;
     padding: 3px;
     margin-right: 10px;
     color: rgb(0, 0, 0);
@@ -240,7 +240,7 @@ nav .top-header {
     height: 160px;
     overflow-y: scroll;
     scrollbar-width: thin;
-    scrollbar-color: #4697ee #f8f9fa;
+    scrollbar-color: #087FFF #f8f9fa;
 }
 
 .course_listitems::-webkit-scrollbar {
@@ -248,7 +248,7 @@ nav .top-header {
 }
 
 .course_listitems::-webkit-scrollbar-thumb {
-    background: #007bff;
+    background: #087FFF;
     border-radius: 15px;
 }
 
@@ -278,7 +278,7 @@ nav .top-header {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 2%;
-    color: darkblue;
+    color: #087FFF;
 }
 
 .academic-details {
@@ -351,7 +351,7 @@ nav .top-header {
 }
 
 .academic-contact-details .call {
-    background-color: darkblue;
+    background-color:#087FFF;
     color: white;
 
 }
@@ -366,7 +366,7 @@ nav .top-header {
     color: white;
 }
 .alumni-heading{
-    background-color: darkblue;
+    background-color: #087FFF;
     height: 100vh;
 }
 .alumni-heading h4{
@@ -469,7 +469,7 @@ nav .top-header {
 .uni-content {
 
     color: whitesmoke;
-    background-color: rgb(7, 7, 88);
+    background-color: #087FFF;
 
 }
 

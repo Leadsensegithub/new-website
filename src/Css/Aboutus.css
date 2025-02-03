@@ -13,10 +13,7 @@
     }
 
     .about-container .aboutus-details .aboutus-content{
-        width: 280px;
-        margin-top: 10px;
-        margin-left: -2px;
-        margin-left: 20px;
+        margin-top: 5px;
         min-height: 170vh;
     }
     .about-container .aboutus-details .aboutus-content h2{
@@ -36,28 +33,21 @@
     background-color: white;
     min-height: 150vh;
 }
-.aboutus-image{
-    
-}
 .about-container .aboutus-image img{
-    height: 800px;
+    width: 100%;
 }
 .about-container .aboutus-content{
     box-shadow: -6px 2px 9px rgb(146, 143, 143);
-    width: 700px;
-    margin-top: -60%;
-    margin-left: 43%;
-    margin-right: 20px;
     border-radius: 15px;
     z-index: 10;
-    height: 140vh;
     background-color: transparent;
+    width: 100%;
     
 }
 .about-container .aboutus-content h2{
     padding-top: 25px;
     text-align: center;
-    color: darkblue;
+    color: #087FFF;
     padding-bottom: 8px;
 }
 .about-container .aboutus-content p{
