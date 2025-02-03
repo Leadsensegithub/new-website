@@ -55,6 +55,7 @@ import Kumar from './Academic/Kumar.png'
 import Maha from './Academic/Maha.png'
 import Krishna from './Academic/Krishna.png'
 import Pavi from './Academic/Pavi.png'
+import graduation from './Academic/graduation.png'
 
 
 const Assets = {
@@ -115,6 +116,6 @@ const Assets = {
    Maha:Maha,
    Krishna:Krishna,
    Pavi:Pavi,
-   
+   graduation:graduation,
 }
 export default Assets

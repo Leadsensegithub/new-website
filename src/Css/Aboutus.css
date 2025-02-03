@@ -1,0 +1,68 @@
+@media only screen and (max-width: 900px) {
+    .mobile {
+        display: none !important;
+    }
+
+    
+    .about-container .aboutus-details .about-container{
+        width: 50px;
+        margin-top: 100px;
+    }
+   .about-container .aboutus-image{
+        display: none;
+    }
+
+    .about-container .aboutus-details .aboutus-content{
+        width: 280px;
+        margin-top: 10px;
+        margin-left: -2px;
+        margin-left: 20px;
+        min-height: 170vh;
+    }
+    .about-container .aboutus-details .aboutus-content h2{
+        font-size: 15px;
+    }
+    .about-container .aboutus-details .aboutus-content p{
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 1.8;
+    }
+
+
+}
+.about-container{
+    padding-top: 30px;
+    background-color: white;
+    min-height: 150vh;
+}
+.aboutus-image{
+    
+}
+.about-container .aboutus-image img{
+    height: 800px;
+}
+.about-container .aboutus-content{
+    box-shadow: -6px 2px 9px rgb(146, 143, 143);
+    width: 700px;
+    margin-top: -60%;
+    margin-left: 43%;
+    margin-right: 20px;
+    border-radius: 15px;
+    z-index: 10;
+    height: 140vh;
+    background-color: transparent;
+    
+}
+.about-container .aboutus-content h2{
+    padding-top: 25px;
+    text-align: center;
+    color: darkblue;
+    padding-bottom: 8px;
+}
+.about-container .aboutus-content p{
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 17px;
+    line-height: 1.5rem;
+}

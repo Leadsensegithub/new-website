@@ -60,6 +60,7 @@ function Footer() {
                                     <div><h6>Student Login</h6></div>
                                     <div><h6>Staff Login</h6></div>
                                     <div><h6>Admission</h6></div>
+                                    <div><h6>About Us</h6></div>
 
 
                                 </div>

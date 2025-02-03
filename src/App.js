@@ -13,7 +13,7 @@ function App() {
     <Router>
 
       <Routes>
-        <Route path="/" element={<Default_layout />} />
+        <Route path="/*" element={<Default_layout />} />
        <Route path="/loader" element={<Loader/>} />
         {/* // <Route path="/contact" element={<Contact />} />  */}
       </Routes>

@@ -56,7 +56,16 @@ nav .top-header {
     .home-btn {
         font-size: 0.7em;
     }
+    .courselist {
+        display: none !important;
+    }
 
+    .degreelist {
+        display: none !important;
+    }
+    .university{
+         /* padding: 0px 20px;  */
+    }
     .academic-heading .card {
         height: 68vh;
         margin: 10px;
@@ -70,6 +79,9 @@ nav .top-header {
         position: absolute;
         margin-top: -100px;
     }
+    .alumni-heading{
+        min-height: 120vh;
+    }
 
     .item-main::before {
         width: 50px;
@@ -78,9 +90,6 @@ nav .top-header {
     .items img {
         width: 50px;
     }
-
-
-
 }
 
 
@@ -616,3 +625,4 @@ nav .top-header {
 .ptag_ft p{
   margin-bottom: 0%;
 }
+
