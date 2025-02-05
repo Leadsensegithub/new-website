@@ -56,6 +56,7 @@ import Maha from './Academic/Maha.png'
 import Krishna from './Academic/Krishna.png'
 import Pavi from './Academic/Pavi.png'
 import graduation from './Academic/graduation.png'
+import globe1 from './Academic/globe1.gif'
 
 
 const Assets = {
@@ -117,5 +118,6 @@ const Assets = {
    Krishna:Krishna,
    Pavi:Pavi,
    graduation:graduation,
+   globe1:globe1,
 }
 export default Assets

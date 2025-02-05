@@ -1,0 +1,123 @@
+.registration-container{
+  padding: 10px;
+}
+.registration-container .university-details{
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+   }
+  
+    
+ .registration-container .university-details:hover {
+    animation-play-state: paused; 
+  }
+ .registration-container .university-details::before {
+    content: "";
+    position: absolute;
+     top: 0;
+    left: 0;
+    z-index: 10;
+
+}
+ .registration-container .university-items{
+    animation: slide 20s infinite linear;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+ .registration-container .university-items img {
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: -6px 2px 9px rgb(177, 170, 170);
+  }
+.registration-container h4{
+     text-align: center;
+    color: #087FFF;
+    padding-top: 5px;
+  }
+
+.registration-container .form-container{
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.registration-container .form-container h4{
+  color: #087FFF;
+}
+
+
+.registration-container .form-container h6{
+    padding: 2px;
+}
+.registration-container .form-container h6 span{
+  font-weight: bold;
+}
+.registration-container .form-container input:focus{
+  border: 1px solid black;
+  box-shadow: none;
+}
+.registration-container .form-container label{
+  padding: 5px;
+}
+.registration-container .form-container .dob:focus-visible{
+  border: none !important;
+  box-shadow: none !important;
+}
+.registration-container .form-container button{
+  width: 100%;
+  border-radius: 5px;
+}
+.registration-container .university-container{
+  border: 1px solid rgb(223, 215, 215);
+  height: 550px;
+  border-radius: 5px;
+}
+
+.globe-gif img{
+  height: 350px;
+  width: 350px;
+  margin-left: 15px;
+}
+@media only screen and (max-width: 900px) {
+  .mobile {
+      display: none !important;
+  
+    }
+    .registration-container{
+      padding: 0;
+    }
+    .registration-container .university-container h4{
+      font-size: 15px;
+      padding-top: 15px;
+    }
+
+  .registration-container .university-container{
+    border: none;
+  }
+  
+  .registration-container .university-container .globe-gif{
+  display: none;
+  }
+  .registration-container .form-container{
+    box-shadow: none;
+    margin-top: -90%;
+  }
+  .registration-container .form-container input{
+    width: 100%;
+  }
+  .registration-container .form-container h4{
+    font-size: 22px;
+  }
+  .registration-container .form-container h6{
+    font-size: 12px;
+  }
+}
+
+
+
+    

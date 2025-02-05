@@ -408,16 +408,16 @@ nav .top-header {
 
 }
 
-.student-alumni-details{
+.alumni-heading .student-alumni-details{
     animation: slide 20s infinite linear;
     display: inline-block;
     margin-left: 60px;
     margin-top: 50px;
-    
+    border-radius: 10px;
 }
   .student-alumni-details img {
-    height: 120px;
-    width: 120px;
+    height: 130px;
+    width: 130px;
     background-color: white;
     border-radius: 2px;
   }
@@ -426,6 +426,8 @@ nav .top-header {
     text-align: center;
     padding-top: 10px;
     color: white;
+    background-color: red;
+    padding-bottom: 5px;
 }
 
 

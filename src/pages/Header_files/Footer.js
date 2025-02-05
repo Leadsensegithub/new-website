@@ -16,7 +16,7 @@ function Footer() {
 
 
     const navigate = (e) => {
-        Navigate(e)
+        window.open(e,"_target")
     }
 
     return (
@@ -60,7 +60,7 @@ function Footer() {
                                     <div><h6>Student Login</h6></div>
                                     <div><h6>Staff Login</h6></div>
                                     <div><h6>Admission</h6></div>
-                                    <div><h6>About Us</h6></div>
+                                    <div><h6 onClick={()=>navigate("./about-us")}>About Us</h6></div>
 
 
                                 </div>
