@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/*" element={<Default_layout />} />
        <Route path="/loader" element={<Loader/>} />
-        // <Route path="/reg-form" element={<RegForm />} /> 
+        <Route path="/sign-in" element={<RegForm />} /> 
       </Routes>
     </Router>
   );

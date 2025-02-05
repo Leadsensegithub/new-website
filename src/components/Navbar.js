@@ -134,7 +134,7 @@ const Navbar = () => {
           <div style={styles.modalContent} onClick={(e) => e.stopPropagation()}>
             <button onClick={closeModal} style={styles.closeButton}>Close</button>
             <div>
-              <Popular_Courses />
+              Hello
             </div>
           </div>
         </div>
