@@ -62,13 +62,13 @@ function Uni_register() {
 
     const [num, setNum] = useState({
         years: "7 years",
-        experience: "year of experiance",
+        experience: "Year Of Experiance",
 
         stu: '1000+',
-        tru_stu: "trusted student",
+        tru_stu: "Trusted Student",
 
         coun: "50+",
-        academic_coun: "academic counselor"
+        academic_coun: "Academic Counselor"
     }
     )
 
@@ -77,7 +77,7 @@ function Uni_register() {
         <div>
             <main className='iniversities mt-5'>
                 <div className='text-center'>
-                    <h1>welcome to our top universities</h1>
+                    <h1>Welcome to our Top Universities</h1>
                     <p> when an unknow printer tok a gal ut also the leap into electronic typesetting lorem lorem universities top welocme to the vision.</p>
                 </div>
                 <div className='uni-image mt-5 mb-5'>
@@ -102,7 +102,7 @@ function Uni_register() {
                 <div className='university_form'>
                 <div className='row  mt-5'>
                     <div className='col-lg-8'>
-                        <h1 className='text-capitalize'>register now</h1>
+                        <h1 className='text-capitalize'>Register now</h1>
                         <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis  rhoncus ut,</h4>
 
 
@@ -132,23 +132,23 @@ function Uni_register() {
                             </div>
 
                             <div className='col-lg-12 col-sm-12 col-12 mt-3'>
-                                <span className='cost'>no cost EMI from  &#8377;5,999/-</span>
+                                <span className='cost'>No Cost EMI From  &#8377;5,999/-</span>
                             </div>
 
                             <div className='col-lg-12 col-sm-12 col-12 input mt-3'>
                                 <div className='input-form'>
-                                    <label>full name</label>
+                                    <label>Full name</label>
                                     <input type='text' className='form-control' />
                                 </div>
                             </div>
 
                             <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
-                                <label>gender</label>
+                                <label>Gender</label>
                                 <input type='text' className='form-control' />
                             </div>
 
                             <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
-                                <label>email address  </label>
+                                <label>Email Address  </label>
                                 <input type='text' className='form-control' />
                             </div>
 
@@ -156,29 +156,29 @@ function Uni_register() {
 
 
                             <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
-                                <label>mobile number</label>
+                                <label>Mobile Number</label>
                                 <input type='text' className='form-control' />
                             </div>
 
                             <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
-                                <label>date of birth</label>
+                                <label>Date Of Birth</label>
                                 <input type='text' className='form-control' />
                             </div>
 
                             <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
-                                <label>state</label>
+                                <label>State</label>
                                 <input type='text' className='form-control' />
                             </div>
 
                             <div className='col-lg-6 col-sm-6 col-6 input-form mt-3'>
-                                <label>city</label>
+                                <label>City</label>
                                 <input type='text' className='form-control' />
                             </div>
 
 
-                            <div className='col-lg-12 col-sm-12 col-12 '>
+                            <div className='col-lg-12 col-sm-12 col-12 mt-1'>
                                <div className='form_sumbit'> 
-                                <button className='btn btn-primary'>sumbit</button>
+                                <button className='btn btn-primary'>Submit</button>
                                 </div> 
                             </div>
 

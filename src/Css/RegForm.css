@@ -3,7 +3,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 
 }
 
@@ -12,8 +12,8 @@
 }
 
 .registration-container {
-  padding: 10px;
 
+  
 }
 
 .registration-container .university-details {
@@ -122,12 +122,10 @@
 
   .registration-container .university-container h4 {
     font-size: 15px;
-    padding-top: 15px;
   }
 
   .registration-container .university-container {
     border: none;
-    margin-top: 474px;
   }
 
   .registration-container .university-container .globe-gif {
@@ -150,4 +148,5 @@
   .registration-container .form-container h6 {
     font-size: 12px;
   }
+
 }

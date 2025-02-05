@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../../Css/Common.css'
 
+
 function Home_header() {
     const [items, setItems] = useState({
         heading: 'the premium system education',
@@ -37,15 +38,15 @@ function Home_header() {
             </div>
             <div className="home-page1 " >
                 <div className="row home-borders">
-                    <div className="col-lg-4 mt-3">
-                        <h2>{items.home_1.years}</h2>
+                    <div className="col-lg-4 mt-3 col-4">
+                        <h2>{items.home_1.years} </h2>
                         <h3>{items.home_1.experience}</h3>
                     </div>
-                    <div className="col-lg-4 mt-3">
+                    <div className="col-lg-4 mt-3 col-4">
                         <h2>{items.home_1.stu}</h2>
                         <h3>{items.home_1.tru_stu}</h3>
                     </div>
-                    <div className="col-lg-4 mt-3">
+                    <div className="col-lg-4 mt-3 col-4">
                         <h2>{items.home_1.coun}</h2>
                         <h3>{items.home_1.academic_coun}</h3>
                     </div>

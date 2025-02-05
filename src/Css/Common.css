@@ -53,9 +53,40 @@ nav .top-header {
         font-size: 0.8em !important;
     }
 
+    .home-page1 h2{
+        font-size: 17px;
+        color:#087FFF;
+    }
+    .home-page1 h3{
+        font-size: 17px;
+        color: black;
+    }
+
+
     .home-btn {
         font-size: 0.7em;
     }
+
+    .home-heading-bottom {
+        height: 270px;
+        background-image: url("../Assets/banners/bg.webp") !important;
+        color: white;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        /* padding-top: 50px; */
+        background-repeat: no-repeat;
+    }
+
+    .home-heading-bottom h1{
+        font-size: 15px;
+    }
+    .home-heading-bottom p{
+        font-size: 14px;
+    }
+    
     .courselist {
         display: none !important;
     }
@@ -80,8 +111,9 @@ nav .top-header {
         margin-top: -100px;
     }
     .alumni-heading{
-        min-height: 120vh;
+        min-height: 220vh;
     }
+
 
     .item-main::before {
         width: 50px;
@@ -118,6 +150,13 @@ nav .top-header {
     /* padding-top: 50px; */
     background-repeat: no-repeat;
 }
+.home-page1 h2{
+    color: #087FFF;
+}
+.home-page1 h3{
+    color: black;
+}
+
 
 .home-borders {
     border-top: 1px solid rgb(204, 201, 201);
@@ -328,6 +367,11 @@ nav .top-header {
 .university-content img {
     height: 100px;
 }
+.uni-content .register_form h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
 
 .course {
     padding: 20px;
@@ -377,7 +421,7 @@ nav .top-header {
 }
 .alumni-heading h2{
     text-align: center;
-    color: red;
+    color:black;
     padding-top: 2px;
     padding-bottom: 2px;
 }
@@ -386,7 +430,6 @@ nav .top-header {
     color:white;
 }
 .alumni-images {
-
     overflow: hidden;
     white-space: nowrap;
     position: relative;
@@ -401,7 +444,6 @@ nav .top-header {
   .alumni-images::before {
     content: "";
     position: absolute;
-   
     top: 0;
     left: 0;
     z-index: 10;
@@ -420,14 +462,20 @@ nav .top-header {
     width: 130px;
     background-color: white;
     border-radius: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
   }
     
 .alumni-images .student-alumni-details h6 {
     text-align: center;
     padding-top: 10px;
-    color: white;
-    background-color: red;
+    color:black;
+    background-color: rgb(225, 213, 213);
     padding-bottom: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
 }
 
 
@@ -442,16 +490,21 @@ nav .top-header {
     background-color: white;
 }
 
-.cost {
+.uni-content .cost {
     text-transform: capitalize;
     font-size: 1em;
-    background-color: gray;
+    background-color:gold;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 5px;
+    margin-left: -20px;
+    color: red;
+    margin-left: -15px;
 }
 
-
+.uni-content .register_form .form_sumbit button{
+    width: 100%;
+}
 
 .form .input-form {
     position: relative;

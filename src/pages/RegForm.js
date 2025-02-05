@@ -157,11 +157,23 @@ function RegForm() {
 
 
   return (
-    <div className="reg">
+    <div>
+    <div className="container">
+    <nav class="navbar navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src={Assets?.Logoinnerblack} alt="Logo" width="150" height="50" />
+    </a>
+    <a class="btn btn-primary" href="#">Sign Up</a>
+  </div>
+</nav>
+  </div>
+
+ <div className="reg">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="registration-container">
+            <div className="registration-container mt-5">
               <div className="row">
                 <div className="col-lg-6">
                   <div className="university-container">
@@ -325,7 +337,7 @@ function RegForm() {
                             className="btn btn-primary"
                             onClick={handleSubmit}
                           >
-                            Sumbit
+                            Submit
                           </button>
                         </div>
                       </div>
@@ -337,6 +349,7 @@ function RegForm() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
