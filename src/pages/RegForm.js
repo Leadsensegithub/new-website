@@ -171,8 +171,8 @@ function RegForm() {
 
  <div className="reg">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
+        {/* <div className="row"> */}
+          {/* <div className="col-lg-12"> */}
             <div className="registration-container mt-5">
               <div className="row">
                 <div className="col-lg-6">
@@ -223,10 +223,11 @@ function RegForm() {
                       </div>
 
                       {errors.userName && (
-                        <p style={{ color: "red" }}>{errors.userName}</p>
+                        <small style={{ color: "red" }}>{errors.userName}</small>
                       )}
 
-                      <div className="col-lg-6 col-sm-6 input-form mt-3">
+                      <div className="col-lg-6 col-sm-6 mt-3">
+                        <div className="input-form">
                         <label>Age</label>
                         <input
                           class="form-control"
@@ -235,11 +236,15 @@ function RegForm() {
                           value={values.age}
                           onChange={(e) => handleChange(e)}
                         />
+                      
+
+                      {errors.age && <small style={{ color: "red" }}>{errors.age}</small>}
+
+                      </div>
                       </div>
 
-                      {errors.age && <p style={{ color: "red" }}>{errors.age}</p>}
-
-                      <div className="col-lg-6 col-sm-6 input-form mt-3">
+                      <div className="col-lg-6 col-sm-6  mt-3">
+                        <div className="input-form">
                         <label for="exampleFormControlInput1">
                           Email address
                         </label>
@@ -252,13 +257,16 @@ function RegForm() {
                           value={values.email}
                           onChange={(e) => handleChange(e)}
                         />
-                      </div>
+                      
 
                       {errors.email && (
-                        <p style={{ color: "red" }}>{errors.email}</p>
+                        <small style={{ color: "red" }}>{errors.email}</small>
                       )}
+                      </div>
+                      </div>
 
-                      <div className="col-lg-6 col-sm-6 input-form mt-3">
+                      <div className="col-lg-6 col-sm-6  mt-3">
+                        <div className="input-form">
                         <label>Phone Number</label>
                         <PhoneInput
                           defaultCountry="in"
@@ -266,13 +274,15 @@ function RegForm() {
                           value={phone}
                           onChange={(phone) => setPhone(phone)}
                         />
-                      </div>
 
                       {errors.mobNo && (
-                        <p style={{ color: "red" }}>{errors.mobNo}</p>
+                        <small style={{ color: "red" }}>{errors.mobNo}</small>
                       )}
 
-                      <div className="col-lg-6 col-sm-6 input-form mt-3">
+                      </div></div>
+
+                      <div className="col-lg-6 col-sm-6 mt-3">
+                        <div className="input-form">
                         <label>Date Of Birth</label>
                         <input data-provide="datepicker"
                           className="form-control"
@@ -282,11 +292,11 @@ function RegForm() {
                           value={values.dob}
                           onChange={(e) => handleChange(e)}
                         />
-                      </div>
+                      {errors.dob && <small style={{ color: "red" }}>{errors.dob}</small>}
+                      </div></div>
 
-                      {errors.dob && <p style={{ color: "red" }}>{errors.dob}</p>}
-
-                      <div className="col-lg-6 col-sm-6 input-form mt-3">
+                      <div className="col-lg-6 col-sm-6 mt-3">
+                        <div className="input-form">
                         <label>State</label>
                         <input
                           class="form-control"
@@ -295,13 +305,14 @@ function RegForm() {
                           value={values.state}
                           onChange={(e) => handleChange(e)}
                         />
-                      </div>
 
                       {errors.state && (
-                        <p style={{ color: "red" }}>{errors.state}</p>
+                        <small style={{ color: "red" }}>{errors.state}</small>
                       )}
+                      </div></div>
 
-                      <div className="col-lg-6 col-sm-6 input-form mt-3">
+                      <div className="col-lg-6 col-sm-6 mt-3">
+                        <div className="input-form">
                         <label>Country</label>
                         <input
                           class="form-control"
@@ -310,13 +321,14 @@ function RegForm() {
                           value={values.country}
                           onChange={(e) => handleChange(e)}
                         />
-                      </div>
 
                       {errors.country && (
-                        <p style={{ color: "red" }}>{errors.country}</p>
+                        <small style={{ color: "red" }}>{errors.country}</small>
                       )}
+                      </div></div>
 
-                      <div className="col-lg-12 col-sm-6 input-form mt-3">
+                      <div className="col-lg-12 col-sm-6 mt-3">
+                        <div className="input-form">
                         <label>Highest Qualification</label>
                         <select
                           class="form-select"
@@ -330,6 +342,7 @@ function RegForm() {
                           <option value="4">Completed 12</option>
                         </select>
                       </div>
+                      </div>
 
                       <div className="col-lg-12 col-sm-12 col-12 mt-3">
                         <div className="form_sumbit">
@@ -341,16 +354,17 @@ function RegForm() {
                           </button>
                         </div>
                       </div>
-                    </div>
+                    
+                      </div></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    </div>
+      
+    // </div>
+    // </div>
   );
 }
 

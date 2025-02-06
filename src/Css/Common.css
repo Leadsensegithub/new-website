@@ -27,6 +27,18 @@ nav .logo-header h1 {
 nav .top-header {
     padding: 5px;
 }
+.modal-content{
+    width: 0%;
+}
+.input-form{
+    text-align: start !important;
+}
+.home-heading .form-container h4{
+    color: #087FFF;
+}
+.form-container small{
+    font-size: 13px;
+}
 
 @media only screen and (max-width: 900px) {
     .mobile {
@@ -86,6 +98,8 @@ nav .top-header {
     .home-heading-bottom p{
         font-size: 14px;
     }
+
+    
     
     .courselist {
         display: none !important;
@@ -111,7 +125,7 @@ nav .top-header {
         margin-top: -100px;
     }
     .alumni-heading{
-        min-height: 220vh;
+        min-height: 150vh;
     }
 
 
@@ -137,7 +151,13 @@ nav .top-header {
     background-repeat: no-repeat;
 
 }
-
+.home-heading .mobile{
+    margin-left: 20%;
+}
+.home-heading .mobile button{
+    padding: 10px;
+    border-radius: 5px;
+}
 .home-heading-bottom {
     height: 170px;
     background-image: url('../Assets/landing/Frame\ 2_4x.webp');
