@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Default_layout from "./default_layout/Default_layout";
 import Loader from "./pages/Loader/Loader";
 import RegForm from "./pages/RegForm";
+import Suggest from "./Ai_2min/Suggest";
 
 // import Universities from "./pages/Universities";
 // import Contact from "./pages/Header_files/Contact";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/*" element={<Default_layout />} />
        <Route path="/loader" element={<Loader/>} />
         <Route path="/sign-in" element={<RegForm />} /> 
+        <Route path="/suggest" element={<Suggest />} /> 
       </Routes>
     </Router>
   );

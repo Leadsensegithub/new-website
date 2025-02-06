@@ -31,6 +31,8 @@ function Home() {
         <div className="col-lg-12">
           <Faq />
         </div>
+        
+
       </div>
 
     </div>
