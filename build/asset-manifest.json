@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d68c77ac.css",
-    "main.js": "/static/js/main.fcdf4286.js",
+    "main.css": "/static/css/main.4fada446.css",
+    "main.js": "/static/js/main.c4eeeb92.js",
     "static/js/488.5649a9e0.chunk.js": "/static/js/488.5649a9e0.chunk.js",
     "static/media/Noida_International_University.jpeg": "/static/media/Noida_International_University.c61cc533ccf136c22494.jpeg",
     "static/media/Kurukshetra_University.png": "/static/media/Kurukshetra_University.5959925de801f5a27380.png",
@@ -11,7 +11,7 @@
     "static/media/Bharathidasan_University.jpeg": "/static/media/Bharathidasan_University.7cd1800f14029d76000b.jpeg",
     "static/media/Koneru_Lakshmaiah_Education_Foundation_(KL University).jpeg": "/static/media/Koneru_Lakshmaiah_Education_Foundation_(KL University).e4c733740f5408bb1fce.jpeg",
     "static/media/OP_Jindal_Global_University.jpeg": "/static/media/OP_Jindal_Global_University.71200070fe1c179656d3.jpeg",
-    "static/media/graduation.png": "/static/media/graduation.a07e46f247aba699fb77.png",
+    "static/media/graduation.png": "/static/media/graduation.d4146f9bfb171d609dab.png",
     "static/media/Andhra_University.jpeg": "/static/media/Andhra_University.c6a42bc4bc74f810bff4.jpeg",
     "static/media/Vivekananda_Global_University.jpeg": "/static/media/Vivekananda_Global_University.daed5885e7e0470c69bd.jpeg",
     "static/media/Anu.png": "/static/media/Anu.2d2172aa873581821ec9.png",
@@ -53,19 +53,23 @@
     "static/media/Dr_MGR_University.png": "/static/media/Dr_MGR_University.fda3cd0129c2bf6eb17d.png",
     "static/media/OP_Jindal_Global_University.png": "/static/media/OP_Jindal_Global_University.2daa02a00f3109f1e5db.png",
     "static/media/Koneru_Lakshmaiah_Education_Foundation_(KL University).png": "/static/media/Koneru_Lakshmaiah_Education_Foundation_(KL University).4413e90c7e137adb3221.png",
+    "static/media/education.png": "/static/media/education.386fe7da3eb2a2be8d55.png",
+    "static/media/bg.webp": "/static/media/bg.fa80196d867fb2d8b680.webp",
     "static/media/logo.png": "/static/media/logo.aa7b09584685644e8629.png",
+    "static/media/study-abroad.png": "/static/media/study-abroad.915754c80860017721e1.png",
     "static/media/Noida_nternational_University.png": "/static/media/Noida_nternational_University.6bf72a01c7a3d4bd2ac1.png",
     "static/media/Frame 2_4x.webp": "/static/media/Frame 2_4x.485190c76f9b9e6fef9f.webp",
     "static/media/Chandigarh_University.png": "/static/media/Chandigarh_University.cf14cdca5780e7ffda41.png",
     "static/media/Vivekananda_Global_University.png": "/static/media/Vivekananda_Global_University.d00dadb1db84850cd449.png",
+    "static/media/graduated.png": "/static/media/graduated.a45eb8c254fd30a7eadf.png",
     "static/media/Jain_University.png": "/static/media/Jain_University.439f97a887d9b5aaef34.png",
     "index.html": "/index.html",
-    "main.d68c77ac.css.map": "/static/css/main.d68c77ac.css.map",
-    "main.fcdf4286.js.map": "/static/js/main.fcdf4286.js.map",
+    "main.4fada446.css.map": "/static/css/main.4fada446.css.map",
+    "main.c4eeeb92.js.map": "/static/js/main.c4eeeb92.js.map",
     "488.5649a9e0.chunk.js.map": "/static/js/488.5649a9e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d68c77ac.css",
-    "static/js/main.fcdf4286.js"
+    "static/css/main.4fada446.css",
+    "static/js/main.c4eeeb92.js"
   ]
 }

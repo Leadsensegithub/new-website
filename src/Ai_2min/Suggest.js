@@ -4,15 +4,6 @@ import Assets from '../Assets/Assets'
 import { IoIosRefresh } from "react-icons/io";
 import { CiClock2 } from "react-icons/ci";
 import { HiOutlineRefresh } from "react-icons/hi";
-
-
-
-
-
-
-
-
-
 import '../Css/suggest.css'
 
 

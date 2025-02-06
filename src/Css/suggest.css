@@ -1,10 +1,10 @@
-.navbar_sign{
+.suggest .navbar_sign{
     display: flex;
     align-items: center;
    width: 100px;
    justify-content: space-between;
 }
-.minutes{
+.suggest .minutes{
     background-color: rgb(113, 189, 113);
     display: flex;
     align-items:baseline;
@@ -12,51 +12,51 @@
     
 
 }
-.suggest_img{
+.suggest .suggest_img{
     padding: 0px 60px;
     
 }
-.sug_img{
+.suggest .sug_img{
     display: flex;
     justify-content: center;
  }
 
-.content{
+ .suggest .content{
     text-align: center;
 }
-.goodnews{
+.suggest .goodnews{
     color: teal;
 }
-.card{
+.suggest .card{
     height: 150px;
     border-radius: 15px;
      text-align: center;
      border: 1px solid gray;
      box-shadow: 2px 2px 6px gray;
 }
-.images{
+.suggest .images{
     width:70px;
     border:1px solid blue;
     border-radius: 50%;
     padding: 10px;
 }
-.btn1{
+.suggest  .btn1{
     display: flex;
     justify-content: center;  
     position: relative; 
 }
 
-.btn1 button{
+.suggest  .btn1 button{
      width: 300px;
      height: 45px;
      border-radius: 10px;
      color: white;
 }
-.btn2{
+.suggest .btn2{
     position: absolute;
      top: -12px;
 } 
-.btntop{
+.suggest  .btntop{
     display: flex;
     align-items:first baseline;
     background-color: beige;
@@ -67,6 +67,6 @@
 
 
 }
-.btntop p{
+.suggest .btntop p{
     margin: 0%;
 }
