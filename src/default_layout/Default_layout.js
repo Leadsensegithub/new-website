@@ -48,6 +48,8 @@ function Default_layout() {
                                     );
                                 })}
                                 <Route path="/" element={<Navigate to="dashboard" replace />} />
+                    
+
                             </Routes>
                         </Suspense>
                     </div>

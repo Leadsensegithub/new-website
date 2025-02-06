@@ -61,10 +61,7 @@ import edu1 from './Logo/education.png'
 import edu2 from './Logo/graduated.png'
 import edu3 from './Logo/graduation.png'
 import  studyabrod from './Logo/study-abroad.png'
-import edu1 from './Logo/education.png'
-import edu2 from './Logo/graduated.png'
-import edu3 from './Logo/graduation.png'
-import  studyabrod from './Logo/study-abroad.png'
+
  
  
 
@@ -132,10 +129,7 @@ const Assets = {
    edu2:edu2,
    edu3:edu3,
    studyabrod:studyabrod,
-   edu1:edu1,
-   edu2:edu2,
-   edu3:edu3,
-   studyabrod:studyabrod,
+
   
 
 }

@@ -27,12 +27,13 @@
 .goodnews{
     color: teal;
 }
-.card{
+.suggest_img .card{
     height: 150px;
     border-radius: 15px;
      text-align: center;
      border: 1px solid gray;
      box-shadow: 2px 2px 6px gray;
+    
 }
 .images{
     width:70px;
@@ -44,6 +45,7 @@
     display: flex;
     justify-content: center;  
     position: relative; 
+    margin-top: 100px;
 }
 
 .btn1 button{
