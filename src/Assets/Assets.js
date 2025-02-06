@@ -61,10 +61,13 @@ import edu1 from './Logo/education.png'
 import edu2 from './Logo/graduated.png'
 import edu3 from './Logo/graduation.png'
 import  studyabrod from './Logo/study-abroad.png'
-import edu1 from './Logo/education.png'
-import edu2 from './Logo/graduated.png'
-import edu3 from './Logo/graduation.png'
-import  studyabrod from './Logo/study-abroad.png'
+import outlook from './Blog/outlook.png'
+import financial from './Blog/financialexpress.png'
+import indiatoday from './Blog/indiatoday.png'
+import yourstory from './Blog/yourstory.png'
+import outlookpage from './Blog/outlookpage.png'
+import indiapage from './Blog/indiapage.png'
+import telugutoday from './Blog/telugutoday.png'
  
  
 
@@ -136,6 +139,13 @@ const Assets = {
    edu2:edu2,
    edu3:edu3,
    studyabrod:studyabrod,
+   outlook:outlook,
+   indiatoday:indiatoday,
+   financial:financial,
+   yourstory:yourstory,
+   outlookpage:outlookpage,
+   indiapage:indiapage,
+   telugutoday:telugutoday,
   
 
 }

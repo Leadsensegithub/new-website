@@ -6,6 +6,7 @@ import Popular_Courses from "./Header_files/Popular_Courses";
 import Academic_counsellor from "./Header_files/Academic_counsellor";
 import Student_alumni from "./Header_files/Student_alumni";
 import Faq from "./Header_files/Faq";
+import Blog from "./Header_files/Blog";
 
 function Home() {
 
@@ -24,6 +25,9 @@ function Home() {
         </div>
         <div className="col-lg-12">
           <Academic_counsellor />
+        </div>
+        <div className="col-lg-12">
+          <Blog />
         </div>
         <div className="col-lg-12">
           <Student_alumni />
