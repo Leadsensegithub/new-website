@@ -17,7 +17,7 @@ nav .logo-header {
 }
 
 nav .logo-header img {
-    width: 100%;
+    width: 70%;
 }
 
 nav .logo-header h1 {
@@ -44,11 +44,14 @@ nav .top-header {
     .mobile {
         display: none !important;
     }
-
+    nav .logo-header img {
+        width: 50%;
+    }
     .home-heading {
         height: 220px !important;
         background-image: url('../Assets/banners/edu_home_mobile.webp') !important;
         background-size: 100%;
+        
     }
 
     .home-heading-title {
@@ -56,7 +59,7 @@ nav .top-header {
     }
 
     .home-heading-title h1 {
-        font-size: 1.2em;
+        font-size: 1.2rem;
         font-weight: 700;
 
     }
@@ -108,6 +111,44 @@ nav .top-header {
     .degreelist {
         display: none !important;
     }
+    .course .university{
+        width: 300px;
+    }
+
+
+    .course .university-content h5{
+        font-size: 12px;
+    }
+    .course .university-content h6{
+        font-size: 8px;
+    }
+    .course .course-slider .slider-container{
+        display: block !important;
+    padding: 0px 10px;
+
+    }
+    .course .course-slider .slider-container button{
+        background-color:#ece6e6 ;
+        color:#087FFF;
+         border-radius: 5px;
+        font-size: 12px;
+        border: none;
+        height: 45px;
+        width: 120px;
+        margin-right: 10px;
+        padding: 10px;
+        font-weight: bold;
+        text-wrap: nowrap;
+        overflow-x: hidden;
+    }
+.course .course-slider .slider-container button:active {
+    background-color: #087FFF;
+    color: white;
+}
+.course .course-slider .slider-container button:hover {
+    background-color: #087FFF;
+    color: white;
+}
     .university{
          /* padding: 0px 20px;  */
     }
@@ -271,6 +312,14 @@ nav .top-header {
     margin-right: 10px;
     color: rgb(0, 0, 0);
 }
+.course h2{
+    text-align: center;
+    color:black;
+    padding-bottom: 5px;
+}
+.course .course-slider .slider-container{
+    display: none;
+}
 
 .course .university .card {
     margin: 0px;
@@ -282,6 +331,9 @@ nav .top-header {
 
 .course .university img {
     width: 100%;
+}
+.course .view-course{
+    border-radius: 5px;
 }
 
 .coursenames input[type="text"] {
@@ -321,7 +373,6 @@ nav .top-header {
     align-items: center;
     gap: 5px;
 }
-
 
 /* form */
 

@@ -2,6 +2,7 @@ import React, { use, useState } from "react";
 import { Link } from "react-router-dom";
 import "../../Css/Common.css";
 import Assets from "../../Assets/Assets";
+import Slider from "react-slick";
 
 function Popular_Courses() {
     const [courses,setCourses] = useState([
@@ -11,6 +12,46 @@ function Popular_Courses() {
         "Fee - High to Low",
         "Ranking - High to Low",
     ]);
+
+    const settings = {
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
+      };
+
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "block", background: "#087FFF", borderRadius:"100%",}}
+            onClick={onClick}
+          />
+        );
+      }
+
+      function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "block", background: "#087FFF",borderRadius:"100%", }}
+            onClick={onClick}
+          />
+        );
+      }
+      
+      const[degreeSlide,setDegreeSlide]=useState([
+        {
+            degreename:"UG Course"
+        },{
+            degreename:"PG Course"
+        },{
+            degreename:"Study Abrod"
+        },
+      ])
 
     const [university, setUniversity] = useState([
         {
@@ -144,7 +185,27 @@ function Popular_Courses() {
 
     return (
         <div className="course">
-            <div className="row">
+            <h2>Top Recommendation</h2>
+            <div className="course-slider">
+            <div className="slider-container mt-4">
+      <Slider {...settings}>
+        {degreeSlide?.map((filter,index)=>(
+            <div style={{marginRight:"10px"}}>
+            <button
+            
+            key={index}
+            className={index === activeIndex ? "active" : ""}
+            onClick={()=>setActiveIndex(index)}
+            >{filter?.degreename}</button>
+          </div>
+        ))}
+        
+      </Slider>
+    </div>
+    </div>
+            
+
+                <div className="row">
                 <div className="col-lg-12">
                     <div className="courselist">
                         {courses?.map((filter, index) => (
@@ -208,7 +269,7 @@ function Popular_Courses() {
                         <div className="row">
                             {university?.slice(0, 8)?.map((data, index) => {
                                 return (
-                                    <div className="col-lg-3">
+                                    <div className="col-lg-3 col-6">
 
                                         <div className="card mt-3">
                                             <div className="university-content">
@@ -217,12 +278,15 @@ function Popular_Courses() {
                                                 <h6>{data.university_name}</h6>
                                                 <h6>{data.duration}</h6>
                                                 <h6 >{data.date}</h6>
-                                                <h6 style={{fontSize:"20px"}}>{data.rank}</h6>
+                                                <h5>{data.rank}</h5>
                                             </div>
                                         </div>
                                     </div>
+                                    
                                 )
                             })}
+                            <button type="button" className="view-course btn-primary mt-3">View ALL</button>
+
 
                         </div>
                     </div>

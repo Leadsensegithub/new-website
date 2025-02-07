@@ -133,6 +133,12 @@ function Home_header() {
           formErrors.gender = "Gender is required!";
           isValid = true;
         }
+
+        if (!values.email) {
+          formErrors.email = "Email is required";
+      } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) {
+          formErrors.email = "Invalid email format";
+      }
         console.log(phone)
         if (!phone.slice(3)) {
           formErrors.mobNo = "Mobile Number is required!"
@@ -341,6 +347,9 @@ function Home_header() {
                                         <option value="3">Graduation</option>
                                         <option value="4">Completed 12</option>
                                       </select>
+                                      {errors.country && (
+                        <small style={{ color: "red" }}>{errors.qualification}</small>
+                      )}
                                     </div>
                                     </div>
               

@@ -51,13 +51,13 @@ const Navbar = () => {
       borderRadius: "4px",
     },
     signInButton: {
-      color: "#fff",
-      backgroundColor: "#000",
-      padding: "0.5rem 1rem",
+      color: "white",
+      backgroundColor: "#087FFF",
+      padding:"5px 5px",
       borderRadius: "4px",
-      border: "1px solid #000",
-      fontWeight: "bold",
+      border: "1px solid white",
       cursor: "pointer",
+      fontSize:"15px",
     },
     modalOverlay: {
       position: "fixed",
