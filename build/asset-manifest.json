@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fada446.css",
-    "main.js": "/static/js/main.c4eeeb92.js",
+    "main.css": "/static/css/main.656e24f5.css",
+    "main.js": "/static/js/main.72107530.js",
     "static/js/488.5649a9e0.chunk.js": "/static/js/488.5649a9e0.chunk.js",
     "static/media/Noida_International_University.jpeg": "/static/media/Noida_International_University.c61cc533ccf136c22494.jpeg",
     "static/media/Kurukshetra_University.png": "/static/media/Kurukshetra_University.5959925de801f5a27380.png",
@@ -31,6 +31,7 @@
     "static/media/Krishna.png": "/static/media/Krishna.fd64a440c1a3f1ca3d0e.png",
     "static/media/Ananth.png": "/static/media/Ananth.8c13fe7317fcead247ef.png",
     "static/media/Gowtham.png": "/static/media/Gowtham.594c18f7e984e2e48017.png",
+    "static/media/outlookpage.png": "/static/media/outlookpage.c7fe2bbb9f9f09b2b939.png",
     "static/media/Keerthi.png": "/static/media/Keerthi.df49c3554de91574ffd4.png",
     "static/media/Suba.png": "/static/media/Suba.4c82f4a8da8ee57f05f5.png",
     "static/media/Sri.png": "/static/media/Sri.e66c0e51fb9dfc214603.png",
@@ -38,17 +39,21 @@
     "static/media/Chandigarh_University.jpeg": "/static/media/Chandigarh_University.ae11a3795f5951feb7e2.jpeg",
     "static/media/edu_home.webp": "/static/media/edu_home.466b83cd39f2f1bf4a79.webp",
     "static/media/Karthik.png": "/static/media/Karthik.54445b30bf7c51b849f2.png",
+    "static/media/financialexpress.png": "/static/media/financialexpress.dd0c8de93fd0e0ea2d0d.png",
     "static/media/Deepak.png": "/static/media/Deepak.7788b62f2d0c536f7032.png",
+    "static/media/indiapage.png": "/static/media/indiapage.eacea2707d2f24f8a444.png",
     "static/media/Maha.png": "/static/media/Maha.3200d3f1d93248e55813.png",
     "static/media/Priya.png": "/static/media/Priya.416b9b20c9a4899e80c6.png",
     "static/media/Siva.png": "/static/media/Siva.89d74d64cbd9f3cb0366.png",
     "static/media/Mathan.png": "/static/media/Mathan.267129597a1f71e8ab82.png",
+    "static/media/outlook.png": "/static/media/outlook.104d9b37070d7a12c6a6.png",
     "static/media/Group_1171275172.png": "/static/media/Group_1171275172.55f38651b5b975227537.png",
     "static/media/logoInner.png": "/static/media/logoInner.2dabfb9ce6c8bc616b12.png",
     "static/media/logoinnerblack.png": "/static/media/logoinnerblack.a53a4a65d8a34eebc6e4.png",
     "static/media/edu_home_mobile.webp": "/static/media/edu_home_mobile.0e1b8cd6248e908095a4.webp",
     "static/media/Bharathidasan_University.png": "/static/media/Bharathidasan_University.6546dc7100b1d45d2263.png",
     "static/media/Andhra_University.png": "/static/media/Andhra_University.06804ff8fef670f94e92.png",
+    "static/media/indiatoday.png": "/static/media/indiatoday.7962cc671aaf79eff4a4.png",
     "static/media/KIIT_University.png": "/static/media/KIIT_University.0c95b0fd5d962ea09710.png",
     "static/media/Dr_MGR_University.png": "/static/media/Dr_MGR_University.fda3cd0129c2bf6eb17d.png",
     "static/media/OP_Jindal_Global_University.png": "/static/media/OP_Jindal_Global_University.2daa02a00f3109f1e5db.png",
@@ -62,14 +67,19 @@
     "static/media/Chandigarh_University.png": "/static/media/Chandigarh_University.cf14cdca5780e7ffda41.png",
     "static/media/Vivekananda_Global_University.png": "/static/media/Vivekananda_Global_University.d00dadb1db84850cd449.png",
     "static/media/graduated.png": "/static/media/graduated.a45eb8c254fd30a7eadf.png",
+    "static/media/yourstory.png": "/static/media/yourstory.9d0a5e401e0891205239.png",
     "static/media/Jain_University.png": "/static/media/Jain_University.439f97a887d9b5aaef34.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.4fada446.css.map": "/static/css/main.4fada446.css.map",
-    "main.c4eeeb92.js.map": "/static/js/main.c4eeeb92.js.map",
+    "main.656e24f5.css.map": "/static/css/main.656e24f5.css.map",
+    "main.72107530.js.map": "/static/js/main.72107530.js.map",
     "488.5649a9e0.chunk.js.map": "/static/js/488.5649a9e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fada446.css",
-    "static/js/main.c4eeeb92.js"
+    "static/css/main.656e24f5.css",
+    "static/js/main.72107530.js"
   ]
 }

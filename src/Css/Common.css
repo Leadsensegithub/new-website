@@ -153,7 +153,7 @@ nav .top-header {
          /* padding: 0px 20px;  */
     }
     .academic-heading .card {
-        height: 68vh;
+        height: 45vh;
         margin: 10px;
     }
 
@@ -165,9 +165,7 @@ nav .top-header {
         position: absolute;
         margin-top: -100px;
     }
-    .alumni-heading{
-        min-height: 150vh;
-    }
+   
 
 
     .item-main::before {
