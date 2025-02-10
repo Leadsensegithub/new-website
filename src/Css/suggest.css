@@ -1,74 +1,85 @@
-.suggest .navbar_sign{
+.suggest .navbar_sign {
     display: flex;
     align-items: center;
-   width: 100px;
-   justify-content: space-between;
+    width: 100px;
+    justify-content: space-between;
 }
-.suggest .minutes{
+
+.suggest .minutes {
     background-color: rgb(113, 189, 113);
     display: flex;
-    align-items:baseline;
+    align-items: baseline;
     justify-content: center;
-    
+
 
 }
-.suggest .suggest_img{
+
+.suggest .suggest_img {
     padding: 0px 60px;
-    
+
 }
-.suggest .sug_img{
+
+.suggest .sug_img {
     display: flex;
     justify-content: center;
- }
+}
 
- .suggest .content{
+.suggest .content {
     text-align: center;
 }
-.suggest .goodnews{
+
+.suggest .goodnews {
     color: teal;
 }
-.suggest_img .card{
+
+.suggest_img .card {
     height: 150px;
     border-radius: 15px;
-     text-align: center;
-     border: 1px solid gray;
-     box-shadow: 2px 2px 6px gray;
-    
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 6px gray;
+    cursor: pointer;
+
 }
-.suggest .images{
-    width:70px;
-    border:1px solid blue;
+
+.suggest .images {
+    width: 70px;
+    border: 1px solid blue;
     border-radius: 50%;
     padding: 10px;
 }
-.suggest  .btn1{
+
+.suggest .btn1 {
     display: flex;
-    justify-content: center;  
-    position: relative; 
+    justify-content: center;
+    position: relative;
     margin-top: 100px;
 }
 
-.suggest  .btn1 button{
-     width: 300px;
-     height: 45px;
-     border-radius: 10px;
-     color: white;
+.suggest .btn1 button {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
 }
-.suggest .btn2{
+
+.suggest .btn2 {
     position: absolute;
-     top: -12px;
-} 
-.suggest  .btntop{
+    top: -12px;
+}
+
+.suggest .btntop {
     display: flex;
-    align-items:first baseline;
+    align-items: first baseline;
     background-color: beige;
     width: 250px;
     justify-content: center;
     border-radius: 10px;
-    border-top:2px solid yellow;
+    border-top: 2px solid yellow;
 
 
 }
-.suggest .btntop p{
+
+.suggest .btntop p {
     margin: 0%;
 }

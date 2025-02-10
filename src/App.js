@@ -6,21 +6,17 @@ import Loader from "./pages/Loader/Loader";
 import RegForm from "./pages/RegForm";
 import Suggest from "./Ai_2min/Suggest";
 import Exploreuniversities from "./pages/Exploreuniversities";
-
-// import Universities from "./pages/Universities";
-// import Contact from "./pages/Header_files/Contact";
-// import TopHeader from "./components/Topheader";
-
+import UserNavbar from "./components/UserDashboard/UserNavbar";
+import Default_Dashboard_layout from "./default_layout/Defaul_dashboard_layout";
 function App() {
   return (
     <Router>
-
       <Routes>
         <Route path="/*" element={<Default_layout />} />
-       <Route path="/loader" element={<Loader/>} />
-        <Route path="/sign-in" element={<RegForm />} /> 
-        <Route path="/suggest" element={<Suggest />} /> 
-        <Route path="/suggest-universities" element={<Suggest />} /> 
+        <Route path="/loader" element={<Loader />} />
+        <Route path="/sign-in" element={<RegForm />} />
+        <Route path="/suggest-universities" element={<Suggest />} />
+        <Route path="/dashboard" element={<Default_Dashboard_layout />} />
       </Routes>
     </Router>
   );
