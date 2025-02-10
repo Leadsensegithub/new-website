@@ -19,13 +19,8 @@ function App() {
         <Route path="/*" element={<Default_layout />} />
        <Route path="/loader" element={<Loader/>} />
         <Route path="/sign-in" element={<RegForm />} /> 
-<<<<<<< HEAD
         <Route path="/suggest" element={<Suggest />} /> 
         <Route path="/suggest-universities" element={<Suggest />} /> 
-=======
-        <Route path="/suggest-universities" element={<Suggest />} /> 
-        <Route path="/explore-uni/" element={<Exploreuniversities />} /> 
->>>>>>> d291da1ac243d8de2adf9bddd559ea21fe3f9ede
       </Routes>
     </Router>
   );
