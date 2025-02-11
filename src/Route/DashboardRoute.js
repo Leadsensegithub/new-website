@@ -3,7 +3,7 @@ import DashboardHome from "../DashboardPage/DashboardHome"
 
 
 const DashboardRoute = [
-    { path: "/", name: "Dashboard", element: DashboardHome, exact: true },
+    { path: "/", name: "User Dashboard", element: DashboardHome, exact: true },
  
  
     

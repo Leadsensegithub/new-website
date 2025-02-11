@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d92f4ce7.css",
-    "main.js": "/static/js/main.8297c494.js",
+    "main.css": "/static/css/main.89e9fbd6.css",
+    "main.js": "/static/js/main.16931232.js",
     "static/js/488.5649a9e0.chunk.js": "/static/js/488.5649a9e0.chunk.js",
     "static/media/Noida_International_University.jpeg": "/static/media/Noida_International_University.c61cc533ccf136c22494.jpeg",
     "static/media/Kurukshetra_University.png": "/static/media/Kurukshetra_University.5959925de801f5a27380.png",
@@ -72,14 +72,14 @@
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.d92f4ce7.css.map": "/static/css/main.d92f4ce7.css.map",
-    "main.8297c494.js.map": "/static/js/main.8297c494.js.map",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.89e9fbd6.css.map": "/static/css/main.89e9fbd6.css.map",
+    "main.16931232.js.map": "/static/js/main.16931232.js.map",
     "488.5649a9e0.chunk.js.map": "/static/js/488.5649a9e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d92f4ce7.css",
-    "static/js/main.8297c494.js"
+    "static/css/main.89e9fbd6.css",
+    "static/js/main.16931232.js"
   ]
 }

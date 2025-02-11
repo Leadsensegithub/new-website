@@ -9,7 +9,7 @@ import Loaders from "../pages/Loader/Loader";
 
 
 function Default_layout() {
-    const [Loader, setLoader] = useState(false)
+    const [Loader, setLoader] = useState(true)
 
     useEffect(() => {
         const timer = setTimeout(() => {

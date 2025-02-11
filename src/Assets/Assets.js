@@ -1,4 +1,4 @@
-import Logo from './Logo/logo.png'
+import Logo from './Logo/collegelogo (1).png'
 import LogoInner from './Logo/logoInner.png'
 import Logoinnerblack from './Logo/collegename.png'
 import landingAsset from './landing/1.png'
