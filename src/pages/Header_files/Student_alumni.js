@@ -65,7 +65,7 @@ function Student_alumni() {
       companyname:"ZOHO"
     },
     {
-      img: Assets?.Priya,
+      img: Assets?.priya,
       companyname:"Oracle"
     },
     {

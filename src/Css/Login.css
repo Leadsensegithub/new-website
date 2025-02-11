@@ -9,6 +9,14 @@ background: #eee;
 height: calc(100% - 73px);
 }
 @media (max-width: 450px) {
+    .loginlogo{
+        top: 0;
+        position: sticky;
+    }
+    .loginlogo img{
+        width: 130px;
+        height: 40px;
+    }
 .h-custom {
 height: 100%;
 }

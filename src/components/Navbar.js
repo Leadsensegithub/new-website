@@ -53,7 +53,7 @@ const Navbar = () => {
     signInButton: {
       color: "white",
       backgroundColor: "#087FFF",
-      padding:"5px 5px",
+      padding:"5px 10px",
       borderRadius: "4px",
       border: "1px solid white",
       cursor: "pointer",
@@ -126,7 +126,7 @@ const Navbar = () => {
       </div>
       <div>
         <button onClick={() => navigate("/login")} style={styles.signInButton}>
-          SIGN IN
+          Login
         </button>
       </div>
       {isModalOpen && (

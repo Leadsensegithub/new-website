@@ -8,19 +8,19 @@ const UserSidebar = () => {
         <div className="sidebar">
             <ul className="sidebarList">
                 <li className="sidebarItem">
-                    <FaTachometerAlt size={20} style={{ marginRight: '10px' }} /> Dashboard
+                    <FaTachometerAlt size={20} style={{ marginRight: '10px' }} /> Profile Details
                 </li>
                 <li className="sidebarItem">
-                    <FaCogs size={20} style={{ marginRight: '10px' }} /> Settings
+                    <FaCogs size={20} style={{ marginRight: '10px' }} /> Exciting Offers
                 </li>
                 <li className="sidebarItem">
-                    <FaBell size={20} style={{ marginRight: '10px' }} /> Notifications
+                    <FaBell size={20} style={{ marginRight: '10px' }} /> Best EMI Options
                 </li>
                 <li className="sidebarItem">
-                    <FaQuestionCircle size={20} style={{ marginRight: '10px' }} /> Help
+                    <FaQuestionCircle size={20} style={{ marginRight: '10px' }} />Enrollment Details
                 </li>
                 <li className="sidebarItem">
-                    <MdLogout size={20} style={{ marginRight: '10px' }} /> Logout
+                    <MdLogout size={20} style={{ marginRight: '10px' }} /> Delete Account
                 </li>
             </ul>
             <div className='sidebarListMobiles'>

@@ -49,7 +49,7 @@ import Siva from './Academic/Siva.png'
 import Harish from './Academic/Harish.png'
 import Sri from './Academic/Sri.png'
 import Selvi from './Academic/Selvi.png'
-import Priya from './Academic/Priya.png'
+import priya from './Academic/priya.png'
 import Diya from './Academic/Diya.png'
 import Kumar from './Academic/Kumar.png'
 import Maha from './Academic/Maha.png'
@@ -123,7 +123,7 @@ const Assets = {
    Harish:Harish,
    Sri:Sri,
    Selvi:Selvi,
-   Priya:Priya,
+   priya:priya,
    Diya:Diya,
    Kumar:Kumar,
    Maha:Maha,

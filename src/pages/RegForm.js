@@ -161,51 +161,32 @@ function RegForm() {
 
   return (
     <div>
-      <div className="container">
-        <nav className="navbar navbar-light">
+      
+        <nav className="navbar navbar-light" style={{background:"#087FFF",top:"0px",position:"sticky"}}>
           <div className="container">
             <a className="navbar-brand" href="#">
               <img
                 src={Assets?.Logoinnerblack}
                 alt="Logo"
-                width="100"
-                height="40"
+                width="200"
+                height="50"
               />
             </a>
-            <a className="btn btn-primary" href="#">
+            {/* <a className="btn btn-primary" href="#">
               Sign Up
-            </a>
+            </a> */}
           </div>
         </nav>
-      </div>
 
+  
+
+  <div className="container">
       <div className="reg">
         <div className="container">
           {/* <div className="row"> */}
           {/* <div className="col-lg-12"> */}
           <div className="registration-container mt-5">
             <div className="row">
-              <div className="col-lg-6">
-                <div className="university-container">
-                  <h4>
-                    Fill in your details now to <br></br>
-                    access your list...
-                  </h4>
-                  <div className="university-details">
-                    {image.map((data, index) => {
-                      return (
-                        <div key={index} className="university-items">
-                          <img src={data?.img1} alt={data?.url} />
-                        </div>
-                      );
-                    })}
-                  </div>
-                  <div className="globe-gif">
-                    <img src={Assets?.globe1} alt="Globe image" />
-                  </div>
-                </div>
-              </div>
-
               <div className="col-lg-6">
                 <div className="form-container">
                   <div className="row">
@@ -376,6 +357,27 @@ function RegForm() {
                         </button>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-6">
+                <div className="university-container">
+                  <h4>
+                    Fill in your details now to <br></br>
+                    access your list...
+                  </h4>
+                  <div className="university-details">
+                    {image.map((data, index) => {
+                      return (
+                        <div key={index} className="university-items">
+                          <img src={data?.img1} alt={data?.url} />
+                        </div>
+                      );
+                    })}
+                  </div>
+                  <div className="globe-gif">
+                    <img src={Assets?.globe1} alt="Globe image" />
                   </div>
                 </div>
               </div>
