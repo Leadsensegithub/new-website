@@ -29,18 +29,24 @@ function Footer() {
                         <div className='footer-icons'>
                             <div className='row'>
                                 <div className='col-lg-12'>
-                                    <h4>Follow Us</h4>
+                                    <h4 style={{color:"darkblue"}}>Follow Us</h4>
                                 </div>
                                 <div className='col-lg-12'>
                                     <div className='media_icons'>
                                         <div className='circule'>
-                                            <BsFacebook />
+                                            <BsFacebook
+                                            style={{color:"darkblue"}}
+                                            />
                                         </div>
                                         <div className='circule'>
-                                            <FaInstagram />
+                                            <FaInstagram 
+                                            style={{color:"#e6005c"}}
+                                            />
                                         </div>
                                         <div className='circule'>
-                                            <CiYoutube />
+                                            <CiYoutube 
+                                            style={{color:"#ff0000"}}
+                                            />
                                         </div>
 
                                     </div>
@@ -53,15 +59,15 @@ function Footer() {
                     </div>
 
                     <div className='col-lg-5 mt-4'>
-                        <div> <h4>Our Links</h4></div>
+                        <div> <h4 style={{color:"darkblue"}}>Our Links</h4></div>
                         <div className='row'>
                             <div className='col-lg-6'>
                                 <div className='footer_items'>
+                                <div><h6 onClick={()=>navigate("./about-us")}>About Us</h6></div>
                                     <div><h6>Student Login</h6></div>
                                     <div><h6>Staff Login</h6></div>
                                     <div><h6>Admission</h6></div>
-                                    <div><h6 onClick={()=>navigate("./about-us")}>About Us</h6></div>
-
+                                    <div>< h6 onClick={()=>navigate("./sitemap")}>Sitemap</h6></div>
 
                                 </div>
 
@@ -69,7 +75,7 @@ function Footer() {
                             </div>
                             <div className='col-lg-6'>
                                 <div className='footer_items'>
-                                    <div> <h6>scholarship</h6></div>
+                                    <div> <h6>Scholarship</h6></div>
                                     <div> <h6>FeedBack</h6></div>
                                     <div> <h6>Students Facility</h6></div>
 
@@ -84,12 +90,12 @@ function Footer() {
                     </div>
                     <div className='col-lg-3 mt-4'>
                         <div className='footer_contact'>
-                            <h4>Contact Us</h4>
+                            <h4 style={{color:"darkblue"}}>Contact Us</h4>
                         </div>
                         <div className='row'>
                             <div className='d-flex ptag_ft'>
                                 <div>
-                                   <IoMdCall/>
+                                   <IoMdCall style={{color:"darkblue",marginRight:"5px"}}/>
                                 </div>
                                 <div>
                                     <p>+91 9087878687686</p>
@@ -97,7 +103,7 @@ function Footer() {
                             </div>
                             <div className='d-flex ptag_ft'>
                                 <div>
-                               <FaRegMessage/>
+                               <FaRegMessage style={{color:"darkblue",marginRight:"5px"}}/>
                                 </div>
                                 <div>
                                     <p>clgwebsite@gmail.com</p>
@@ -105,10 +111,10 @@ function Footer() {
                             </div>
                             <div className='d-flex ptag_ft'>
                                 <div>
-                                <IoLocationOutline/>
+                                <IoLocationOutline style={{color:"darkblue",marginRight:"5px"}}/>
                                 </div>
                                 <div>
-                                    <p>chennai</p>
+                                    <p>Chennai</p>
                                 </div>
                             </div>
                         </div>

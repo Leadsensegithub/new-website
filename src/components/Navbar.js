@@ -125,7 +125,7 @@ const Navbar = () => {
         </button>
       </div>
       <div>
-        <button onClick={() => navigate("/sign-in")} style={styles.signInButton}>
+        <button onClick={() => navigate("/login")} style={styles.signInButton}>
           SIGN IN
         </button>
       </div>

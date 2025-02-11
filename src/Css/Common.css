@@ -44,6 +44,7 @@ nav .top-header {
     .mobile {
         display: none !important;
     }
+    
     nav .logo-header img {
         width: 50%;
     }
@@ -101,9 +102,9 @@ nav .top-header {
     .home-heading-bottom p{
         font-size: 14px;
     }
-
-    
-    
+    .home-page1 .modal-content{
+        display: none;
+    }
     .courselist {
         display: none !important;
     }
@@ -149,6 +150,10 @@ nav .top-header {
     background-color: #087FFF;
     color: white;
 }
+
+.course .viewall{
+    
+}
     .university{
          /* padding: 0px 20px;  */
     }
@@ -165,7 +170,13 @@ nav .top-header {
         position: absolute;
         margin-top: -100px;
     }
-   
+    .academic-heading .card .academic-contact-details{
+        transition: transform 0.3s ease-in-out; 
+    }
+    
+    .academic-heading .card .academic-details :hover {
+        transform: scale(1.2);
+    }
 
 
     .item-main::before {
@@ -190,10 +201,10 @@ nav .top-header {
     background-repeat: no-repeat;
 
 }
-.home-heading .mobile{
+.home-heading .mobilee{
     margin-left: 20%;
 }
-.home-heading .mobile button{
+.home-heading .mobilee button{
     padding: 10px;
     border-radius: 5px;
 }
@@ -621,6 +632,33 @@ nav .top-header {
     z-index: 10;
 
 }
+.site-map{
+    background-color: #cedbe9;
+}
+.site-map .onmba{
+    background-color:white;
+    
+}
+.site-map .onmba h5{
+    color:darkblue;
+    text-align: center;
+}
+.site-map .course-names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.site-map .course-names button{
+    border: none;
+    color: #087FFF;
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color:rgb(239, 235, 235);
+}
+
+
 
 
 @media only screen and (max-width: 900px) {
@@ -709,7 +747,7 @@ nav .top-header {
 
 
 .footer .circule {
-    background-color: gray;
+    background-color: white;
     width: 40px;
     border-radius: 50%;
     height: 40px;
@@ -720,6 +758,7 @@ nav .top-header {
     color: wheat;
     margin-right: 10px;
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .footer_icons {

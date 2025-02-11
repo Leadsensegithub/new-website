@@ -57,15 +57,15 @@ function Academic_counsellor() {
                   </div>
                   <div className="academic-contact-details">
                     <button onClick={handlecall}>
-                      <IoCall />
+                      <IoCall style={{color:"darkblue"}} />
 
                     </button>
                     <button onClick={() => handlewhatsapp()}>
-                      <FaWhatsapp />
+                      <FaWhatsapp style={{color:"green"}}/>
 
                     </button>
                     <button onClick={handlemail}>
-                      <IoMail />
+                      <IoMail style={{color:"orange"}}/>
                     </button>
                   </div>
                 </div>

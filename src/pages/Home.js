@@ -10,7 +10,6 @@ import Blog from "./Header_files/Blog";
 
 function Home() {
 
-
   return (
     <div className="home_page">
       <div className="row">

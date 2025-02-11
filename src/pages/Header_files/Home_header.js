@@ -28,6 +28,28 @@ function Home_header() {
     },
   });
 
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsSmallScreen(window.innerWidth <= 768); 
+    };
+
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+
+    return () => window.removeEventListener('resize', checkScreenSize); 
+  }, []);
+
+  const handleClickSmallScreen = () => {
+    const small=navigate("./sign-in")
+  };
+
+  const handleClickLargeScreen = () => {
+   openModal()
+  };
+
+
   const styles = {
       
       linksContainer: {
@@ -50,8 +72,8 @@ function Home_header() {
         backgroundColor: "#fff",
         padding: "2rem",
         borderRadius: "8px",
-        minWidth: "500px",
-        minHeight: "200px",
+        width: "500px",
+        // height: "200px",
         textAlign: "center",
       },
       closeButton: {
@@ -190,10 +212,10 @@ function Home_header() {
           <h1>{items.heading}</h1>
           <p className="fs-3">{items.paratag}</p>
 
-          <div style={styles.linksContainer} className="mobile">
+          <div style={styles.linksContainer} className="mobilee">
             <button
               className="home-btn px-3"
-              onClick={openModal}
+              onClick={isSmallScreen ? handleClickSmallScreen : handleClickLargeScreen}
               style={styles.linkButton}
             >
               {items.btn1}
