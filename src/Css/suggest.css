@@ -22,6 +22,9 @@
     margin-top: 20px;
     cursor: pointer;
 }
+.form_sumbit button{
+    width: 100%;
+}
 
 .suggest .suggest_img {
     padding: 0px 60px;

@@ -85,6 +85,7 @@ function Home_header() {
         borderRadius: "4px",
         fontSize: "16px",
         minWidth: "0px",
+        width:"100%"
       },
     };
     const [isScrolled, setIsScrolled] = useState(false);

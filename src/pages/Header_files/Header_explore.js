@@ -190,7 +190,9 @@ function Header_explore({
                       <div className="form_sumbit">
                         <button
                           className="btn btn-primary"
+                      
                           onClick={handleSubmit}
+                        
                         >
                           Submit
                         </button>
@@ -198,7 +200,7 @@ function Header_explore({
                     </div>
                     <div className="col-lg-6 col-sm-12 col-12 mt-3">
                       <div>
-                        <button onClick={CloseModal} style={styles.closeButton}>
+                        <button onClick={CloseModal} className="w-100" style={styles.closeButton}>
                           Close
                         </button>
                       </div>

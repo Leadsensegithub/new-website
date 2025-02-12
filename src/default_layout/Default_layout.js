@@ -10,6 +10,7 @@ import Loaders from "../pages/Loader/Loader";
 
 function Default_layout() {
     const [Loader, setLoader] = useState(true)
+    const [ip, setIp] = useState(sessionStorage.getItem("ip") || "");
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -17,6 +18,23 @@ function Default_layout() {
         }, 2000);
 
         return () => clearTimeout(timer);
+    }, []);
+    useEffect(() => {
+        const fetchIP = async () => {
+            try {
+                const storedIp = sessionStorage.getItem("ip");
+                if (storedIp) return;
+
+                const response = await fetch("https://api64.ipify.org?format=json");
+                const data = await response.json();
+                setIp(data.ip);
+                sessionStorage.setItem("ip", data.ip);
+            } catch (error) {
+                console.error("Error fetching IP:", error);
+            }
+        };
+
+        fetchIP();
     }, []);
 
     return (
@@ -48,7 +66,7 @@ function Default_layout() {
                                     );
                                 })}
                                 <Route path="/" element={<Navigate to="dashboard" replace />} />
-                    
+
 
                             </Routes>
                         </Suspense>
