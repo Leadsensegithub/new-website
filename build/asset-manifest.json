@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.89e9fbd6.css",
-    "main.js": "/static/js/main.16931232.js",
+    "main.css": "/static/css/main.55bffa11.css",
+    "main.js": "/static/js/main.7a461b63.js",
     "static/js/488.5649a9e0.chunk.js": "/static/js/488.5649a9e0.chunk.js",
     "static/media/Noida_International_University.jpeg": "/static/media/Noida_International_University.c61cc533ccf136c22494.jpeg",
     "static/media/Kurukshetra_University.png": "/static/media/Kurukshetra_University.5959925de801f5a27380.png",
@@ -43,13 +43,12 @@
     "static/media/Deepak.png": "/static/media/Deepak.7788b62f2d0c536f7032.png",
     "static/media/indiapage.png": "/static/media/indiapage.eacea2707d2f24f8a444.png",
     "static/media/Maha.png": "/static/media/Maha.3200d3f1d93248e55813.png",
-    "static/media/priya.png": "/static/media/priya.416b9b20c9a4899e80c6.png",
+    "static/media/Priya.png": "/static/media/Priya.416b9b20c9a4899e80c6.png",
     "static/media/Siva.png": "/static/media/Siva.89d74d64cbd9f3cb0366.png",
     "static/media/Mathan.png": "/static/media/Mathan.267129597a1f71e8ab82.png",
     "static/media/outlook.png": "/static/media/outlook.104d9b37070d7a12c6a6.png",
     "static/media/Group_1171275172.png": "/static/media/Group_1171275172.55f38651b5b975227537.png",
     "static/media/logoInner.png": "/static/media/logoInner.2dabfb9ce6c8bc616b12.png",
-    "static/media/logoinnerblack.png": "/static/media/logoinnerblack.a53a4a65d8a34eebc6e4.png",
     "static/media/edu_home_mobile.webp": "/static/media/edu_home_mobile.0e1b8cd6248e908095a4.webp",
     "static/media/Bharathidasan_University.png": "/static/media/Bharathidasan_University.6546dc7100b1d45d2263.png",
     "static/media/Andhra_University.png": "/static/media/Andhra_University.06804ff8fef670f94e92.png",
@@ -60,7 +59,6 @@
     "static/media/Koneru_Lakshmaiah_Education_Foundation_(KL University).png": "/static/media/Koneru_Lakshmaiah_Education_Foundation_(KL University).4413e90c7e137adb3221.png",
     "static/media/education.png": "/static/media/education.386fe7da3eb2a2be8d55.png",
     "static/media/bg.webp": "/static/media/bg.fa80196d867fb2d8b680.webp",
-    "static/media/logo.png": "/static/media/logo.aa7b09584685644e8629.png",
     "static/media/study-abroad.png": "/static/media/study-abroad.915754c80860017721e1.png",
     "static/media/Noida_nternational_University.png": "/static/media/Noida_nternational_University.6bf72a01c7a3d4bd2ac1.png",
     "static/media/Frame 2_4x.webp": "/static/media/Frame 2_4x.485190c76f9b9e6fef9f.webp",
@@ -69,17 +67,18 @@
     "static/media/graduated.png": "/static/media/graduated.a45eb8c254fd30a7eadf.png",
     "static/media/yourstory.png": "/static/media/yourstory.9d0a5e401e0891205239.png",
     "static/media/Jain_University.png": "/static/media/Jain_University.439f97a887d9b5aaef34.png",
+    "static/media/collegename.png": "/static/media/collegename.19d7c07e1428eeef0a7b.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.89e9fbd6.css.map": "/static/css/main.89e9fbd6.css.map",
-    "main.16931232.js.map": "/static/js/main.16931232.js.map",
+    "main.55bffa11.css.map": "/static/css/main.55bffa11.css.map",
+    "main.7a461b63.js.map": "/static/js/main.7a461b63.js.map",
     "488.5649a9e0.chunk.js.map": "/static/js/488.5649a9e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89e9fbd6.css",
-    "static/js/main.16931232.js"
+    "static/css/main.55bffa11.css",
+    "static/js/main.7a461b63.js"
   ]
 }

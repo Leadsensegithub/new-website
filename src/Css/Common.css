@@ -112,11 +112,6 @@ nav .top-header {
     .degreelist {
         display: none !important;
     }
-    .course .university{
-        width: 300px;
-    }
-
-
     .course .university-content h5{
         font-size: 12px;
     }
