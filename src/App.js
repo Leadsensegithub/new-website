@@ -17,7 +17,7 @@ function App() {
         <Route path="/loader" element={<Loader />} />
         <Route path="/sign-in" element={<RegForm />} />
         <Route path="/suggest-universities" element={<Suggest />} />
-        <Route path="/dashboard" element={<Default_Dashboard_layout />} />
+        <Route path="/dashboard/*" element={<Default_Dashboard_layout />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
