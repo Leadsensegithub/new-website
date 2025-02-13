@@ -1,0 +1,22 @@
+.enrollment h2{
+    color:#087FFF ;
+}
+.enrollment .program .card h6{
+    color:#087FFF ;
+}
+.enrollment .cv h4{
+    color:#087FFF ;
+}
+.enrollment .cv .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enrollment .cv .card img{
+    border-radius: 50%;
+}
+@media screen and (max-width: 768px){
+    .cv .card{
+        margin-bottom: 10px;
+    }
+}

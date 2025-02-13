@@ -1,0 +1,35 @@
+.home .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 250px;
+    margin-left: 80px;
+}
+.home .card img{
+    width: 120px;
+    height: 150px;
+}
+.home .card {
+    background-color: #087FFF;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.home .card h2{
+    color: white;
+    font-size: 20px;
+}
+.home .card p{
+    color:white;
+    padding-top: 20px;
+}
+.home .card .btn{
+    color: white;
+}
+@media only screen and (max-width: 900px) {
+    .home .card{
+         margin-left: 20px;
+         width: 250px;
+    }
+    .home .card img{}
+}

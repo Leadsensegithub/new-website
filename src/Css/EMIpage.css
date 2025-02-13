@@ -1,0 +1,42 @@
+.emi h2{
+    color: #087FFF;
+    text-align: start;
+}
+.emi .emi-btns{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.emi .emi-btns button{
+    height: 90px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #087FFF;
+    border: none;
+}
+.emi .emi-btns h2{
+    font-size: 25px;
+    color: white;
+}
+.emi .emi-btns p{
+    font-size: 13px;
+    color: black;
+    text-align: start;
+    padding: 0;
+}
+.emi .loan{
+    margin-top: -100px;
+    margin-left: -100px;
+}
+@media screen and (max-width: 768px){
+    .emi .emi-btns button{
+        height: 100px;
+    }
+    .emi .emi-btns button p{
+        font-size: 12px;
+    }
+    .emi img{
+        display: none;
+    }
+}
