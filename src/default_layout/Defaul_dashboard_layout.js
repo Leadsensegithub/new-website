@@ -9,7 +9,7 @@ function Default_Dashboard_layout() {
     return (
         <>
             <div className="row">
-                <div className="col-lg-12">
+                <div className="col-lg-12 col-md-12">
                     <Navbar />
                 </div>
                 <div className="col-lg-3">
@@ -17,7 +17,6 @@ function Default_Dashboard_layout() {
                 </div>
                 <div className="col-lg-9" style={{textAlign:"start"}}>
                     <div className="flex flex-col flex-1">
-
                         <div className="p-4">
                             <Suspense>
                                 <Routes>

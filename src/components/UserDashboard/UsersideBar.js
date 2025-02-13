@@ -32,13 +32,16 @@ const UsersideBar = () => {
             >
                     <MdWindow   size={20} style={{ marginRight: '10px' }} /> Profile Details
                 </li>
-                <li className="sidebarItem" onClick={()=>Offerpage("/dashboard/offerpage")}>
+                <li className={active == "/dashboard/offerpage" ? "sidebarItem active" : "sidebarItem"} 
+                 onClick={()=>Offerpage("/dashboard/offerpage")}>
                     <MdOutlineAttachMoney size={20} style={{ marginRight: '10px' }}  /> Exciting Offers
                 </li>
-                <li className="sidebarItem" onClick={()=>Offerpage("/dashboard/emipage")}>
+                <li className={active == "/dashboard/emipage" ? "sidebarItem active" : "sidebarItem"} 
+                onClick={()=>Offerpage("/dashboard/emipage")}>
                     <FaCalculator size={20} style={{ marginRight: '10px' }} /> Best EMI Options
                 </li>
-                <li className="sidebarItem" onClick={()=>Offerpage("/dashboard/enrollment")}>
+                <li className={active == "/dashboard/enrollment" ? "sidebarItem active" : "sidebarItem"}  
+                onClick={()=>Offerpage("/dashboard/enrollment")}>
                     <CgProfile size={20} style={{ marginRight: '10px' }} />Enrollment Details
                 </li>
                 <li className="sidebarItem" >
@@ -56,7 +59,6 @@ const UsersideBar = () => {
 
                 <CgProfile size={24} onClick={()=>Offerpage("/dashboard/enrollment")}/>
                 <MdLogout size={24} />
-
             </div>
         </div>
     );

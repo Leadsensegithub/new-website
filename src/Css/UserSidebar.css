@@ -17,6 +17,10 @@
     display: none;
 
 }
+.sidebarList .active {
+    background-color: #087FFF !important;
+    color: white;
+}
 
 .sidebarList,
 .sidebarListMobile {

@@ -60,56 +60,56 @@
     }
 }
 
-.explore_sidebar ul {
+.ExploreCourse .explore_sidebar ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.syllabus-container {
+.ExploreCourse .syllabus-container {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 
-.syllabus-container h1 {
+.ExploreCourse .syllabus-container h1 {
     text-align: center;
     color: #2c3e50;
 }
 
-.syllabus-table {
+.ExploreCourse .syllabus-table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
 }
 
-.syllabus-table th,
+.ExploreCourse .syllabus-table th,
 .syllabus-table td {
     padding: 12px;
     text-align: left;
     border: 1px solid #ddd;
 }
 
-.syllabus-table th {
+.ExploreCourse .syllabus-table th {
     background-color: #2980b9;
     color: white;
 }
 
-.syllabus-table tr:nth-child(even) {
+.ExploreCourse .syllabus-table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-.courses-list {
+.ExploreCourse .courses-list {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-.courses-list li {
+.ExploreCourse .courses-list li {
     font-size: 16px;
     color: #34495e;
 }
 
-.fee-table-container {
+.ExploreCourse .fee-table-container {
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -117,43 +117,43 @@
     margin: 0 auto;
 }
 
-h2 {
+.ExploreCourse  h2 {
     text-align: center;
     font-family: 'Arial', sans-serif;
     margin-bottom: 20px;
 }
 
-.fee-table {
+.ExploreCourse .fee-table {
     width: 100%;
     border-collapse: collapse;
     font-family: 'Arial', sans-serif;
 }
 
-.fee-table th,
+.ExploreCourse .fee-table th,
 .fee-table td {
     padding: 12px;
     text-align: center;
     border: 1px solid #ddd;
 }
 
-.fee-table th {
+.ExploreCourse .fee-table th {
     background-color: #4CAF50;
     color: white;
 }
 
-.fee-table td {
+.ExploreCourse .fee-table td {
     background-color: #f4f4f4;
 }
 
-.fee-table tr:nth-child(even) td {
+.ExploreCourse .fee-table tr:nth-child(even) td {
     background-color: #f9f9f9;
 }
 
-.fee-table tr:hover {
+.ExploreCourse .fee-table tr:hover {
     background-color: #e9e9e9;
 }
 
-.explore_sidebar li {
+.ExploreCourse .explore_sidebar li {
     padding: 0.5rem;
     /* p-2 */
     margin: 20px 0px;
@@ -164,12 +164,12 @@ h2 {
     /* transition-colors duration-300 */
 }
 
-.explore_sidebar li:hover {
+.ExploreCourse .explore_sidebar li:hover {
     background-color: #e5e7eb;
     /* hover:bg-gray-200 */
 }
 
-.explore_sidebar li.active {
+.ExploreCourse .explore_sidebar li.active {
     background-color: #3b82f6 !important;
     color: white;
 }

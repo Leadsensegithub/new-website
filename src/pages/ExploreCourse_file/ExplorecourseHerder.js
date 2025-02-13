@@ -4,7 +4,7 @@ function ExploreCourseHerder() {
     return (
         <>
             <div className="ExplorecourseHeader">
-                <h1>Program Overview</h1>
+                <h2 style={{textAlign:"start"}}>Program Overview</h2>
                 <p>
                     The Online Post Graduate Diploma in Management (PGDM) program is designed for working professionals and aspiring leaders who seek to enhance their business acumen and managerial skills. This program offers a flexible, industry-relevant curriculum that covers key areas such as marketing, finance, operations, human resources, and strategic management. With a blend of theoretical knowledge and practical applications, students gain a well-rounded understanding of modern business practices.
                 </p>

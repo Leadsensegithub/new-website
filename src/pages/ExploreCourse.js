@@ -4,6 +4,9 @@ import ExploreCourseHerder from "./ExploreCourse_file/ExplorecourseHerder";
 import ExploreCourseStatus from "./ExploreCourse_file/ExploreCourseStatus";
 import SubjectsSyllabus from "./ExploreCourse_file/SubjectsSyllabus";
 import ProgramFees from "./ExploreCourse_file/ProgramFees";
+import AdmissionProcedure from "./ExploreCourse_file/AdmissionProcedure";
+import TopSpecialisations from "./ExploreCourse_file/TopSpecialisations";
+import EducationLoanEMI from "./ExploreCourse_file/EducationLoanEMI";
 
 function ExploreCourse() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -41,17 +44,26 @@ function ExploreCourse() {
                                 <h1>ONLINE PGDM</h1>
                             </div>
                         </div>
-                        <div className="col-lg-12">
+                        <div className="col-lg-12 mt-5">
                             <ExploreCourseHerder />
                         </div>
-                        <div className="col-lg-12">
+                        <div className="col-lg-12 mt-5">
                             <ExploreCourseStatus />
                         </div>
-                        <div className="col-lg-12">
+                        <div className="col-lg-12 mt-5">
                             <SubjectsSyllabus />
                         </div>
-                        <div className="col-lg-12">
+                        <div className="col-lg-12 mt-5">
+                            <AdmissionProcedure />
+                        </div>
+                        <div className="col-lg-12 mt-5">
                             <ProgramFees />
+                        </div>
+                        <div className="col-lg-12 mt-5">
+                            <TopSpecialisations />
+                        </div>
+                        <div className="col-lg-12 mt-5">
+                            <EducationLoanEMI />
                         </div>
                     </div>
                 </div>
