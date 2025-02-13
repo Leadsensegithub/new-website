@@ -1,0 +1,72 @@
+.offerspage .card{
+    height: 400px;
+}
+.offerspage .card h2 svg{
+    color: #087FFF ;
+}
+.offerspage .card p{
+    color: red;
+    font-size: 10px;
+}
+.offerspage .card .reference button{
+    background-color: #087FFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+}
+.offerspage .card .reference .img{
+    width: 10px;
+
+}
+
+.offerspage .card .applybtn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.offerspage .qrcode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.offerspage .card .qrcode h2{
+    color: #087FFF;
+    font-size: 20px;
+}
+.offerspage .card .qrcode img{
+    height: 150px;
+    width: 150px;
+}
+.offerspage .card .qrcode button{
+    background-color: #087FFF;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.offerspage .card .qrcode .contact button{
+ background-color:white;   
+}
+@media only screen and (max-width: 900px){
+.offerspage .card .reference button{
+    width: 130px;
+    font-size: 10px;
+    height: 40px;
+    margin-left: 50px;
+
+}
+.offerspage .card .applybtn{
+    width: 130px;
+    height: 40px;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.offerspage .reference img{
+    display: none;
+}
+}

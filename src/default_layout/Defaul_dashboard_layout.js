@@ -12,10 +12,10 @@ function Default_Dashboard_layout() {
                 <div className="col-lg-12">
                     <Navbar />
                 </div>
-                <div className="col-lg-2">
+                <div className="col-lg-3">
                     <UserSidebar />
                 </div>
-                <div className="col-lg-10">
+                <div className="col-lg-9" style={{textAlign:"start"}}>
                     <div className="flex flex-col flex-1">
 
                         <div className="p-4">

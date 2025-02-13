@@ -49,7 +49,7 @@ import Siva from './Academic/Siva.png'
 import Harish from './Academic/Harish.png'
 import Sri from './Academic/Sri.png'
 import Selvi from './Academic/Selvi.png'
-import priya from './Academic/Priya.png'
+import priya from './Academic/priya.png'
 import Diya from './Academic/Diya.png'
 import Kumar from './Academic/Kumar.png'
 import Maha from './Academic/Maha.png'
@@ -68,6 +68,11 @@ import yourstory from './Blog/yourstory.png'
 import outlookpage from './Blog/outlookpage.png'
 import indiapage from './Blog/indiapage.png'
 import telugutoday from './Blog/telugutoday.png'
+import QR from './Academic/QR.png'
+import wallet from './Academic/wallet.png'
+import loan from './Academic/loan.png'
+import career1 from './Academic/career1.png'
+import career2 from './Academic/career2.png'
 
 const Assets = {
     Logo: Logo,
@@ -144,7 +149,12 @@ const Assets = {
    outlookpage:outlookpage,
    indiapage:indiapage,
    telugutoday:telugutoday,
-  
+   QR:QR,
+   wallet:wallet,  
+   loan:loan,
+   career1:career1,
+   career2,career2,
+
 
 }
 export default Assets
