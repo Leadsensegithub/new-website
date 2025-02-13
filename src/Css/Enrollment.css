@@ -15,6 +15,19 @@
 .enrollment .cv .card img{
     border-radius: 50%;
 }
+.enrollment .contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.enrollment .contact button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.enrollment .contact button svg{
+    font-size: 20px;
+}
 @media screen and (max-width: 768px){
     .cv .card{
         margin-bottom: 10px;

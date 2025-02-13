@@ -107,7 +107,7 @@ function DashboardHome() {
         {/* <div className="col-lg-12"> */}
       
 
-        <div className="col-lg-5">
+        <div className="col-lg-7">
             <div className="reg">
               <div className="registration-container mt-5">
                 <div className="row">

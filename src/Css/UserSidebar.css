@@ -5,7 +5,8 @@
     height: auto;
     margin-top: 20px;
     background-color: #fffefe;
-    color: rgb(81, 0, 255);
+    /* color: rgb(81, 0, 255); */
+    color:  #087FFF;
     padding-top: 20px;
     z-index: 1000;
     box-shadow: 2px 0 5px rgba(198, 198, 198, 0.3);
@@ -40,6 +41,10 @@
     background-color: #087FFF;
     color: white;
 }
+.sidebarList .active {
+    background-color: #087FFF;
+    color: white;
+}
 
 /* For Mobile Devices */
 @media screen and (max-width: 768px) {
@@ -66,7 +71,7 @@
         width: 100%;
         justify-content: space-evenly;
         box-shadow: 1px 1px 20px #ebeaea;
-        ;
+        z-index: 1000;
     }
 
     .sidebarItem {

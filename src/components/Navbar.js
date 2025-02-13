@@ -28,7 +28,7 @@ const Navbar = () => {
       borderRadius: "4px",
       border: "1px solid #ccc",
       fontSize: "16px",
-      width: "250px",  // Adjust width as needed
+      width: "250px", 
     },
     searchIcon: {
       position: "absolute",

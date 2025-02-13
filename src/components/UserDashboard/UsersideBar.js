@@ -1,47 +1,60 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaTachometerAlt, FaCogs, FaBell, FaQuestionCircle } from 'react-icons/fa';
 import { MdLogout } from 'react-icons/md'; // Logout icon
 import '../../Css/UserSidebar.css';
+import { MdWindow } from "react-icons/md";
+import { MdOutlineAttachMoney } from "react-icons/md";
+import { CgProfile } from "react-icons/cg";
+import { FaCalculator } from "react-icons/fa6";
+
+
+
 import { useNavigate } from 'react-router-dom';
 
-const UserSidebar = () => {
+const UsersideBar = () => {
 
+    const [active, setActive] = useState("/dashboard/");
+   console.log(active)
      const Navigate = useNavigate()
     
     
         const Offerpage = (e) => {
             Navigate(e)
+            setActive(e)
         }
     
     return (
         <div className="sidebar">
             <ul className="sidebarList">
-                <li className="sidebarItem" onClick={()=>Offerpage("/dashboard/")}>
-                    <FaTachometerAlt size={20} style={{ marginRight: '10px' }} /> Profile Details
+            <li 
+                className={active == "/dashboard/" ? "sidebarItem active" : "sidebarItem"} 
+                onClick={() => Offerpage("/dashboard/")}
+            >
+                    <MdWindow   size={20} style={{ marginRight: '10px' }} /> Profile Details
                 </li>
                 <li className="sidebarItem" onClick={()=>Offerpage("/dashboard/offerpage")}>
-                    <FaCogs size={20} style={{ marginRight: '10px' }}  /> Exciting Offers
+                    <MdOutlineAttachMoney size={20} style={{ marginRight: '10px' }}  /> Exciting Offers
                 </li>
                 <li className="sidebarItem" onClick={()=>Offerpage("/dashboard/emipage")}>
-                    <FaBell size={20} style={{ marginRight: '10px' }} /> Best EMI Options
+                    <FaCalculator size={20} style={{ marginRight: '10px' }} /> Best EMI Options
                 </li>
                 <li className="sidebarItem" onClick={()=>Offerpage("/dashboard/enrollment")}>
-                    <FaQuestionCircle size={20} style={{ marginRight: '10px' }} />Enrollment Details
+                    <CgProfile size={20} style={{ marginRight: '10px' }} />Enrollment Details
                 </li>
-                <li className="sidebarItem">
+                <li className="sidebarItem" >
                     <MdLogout size={20} style={{ marginRight: '10px' }} /> Delete Account
                 </li>
             </ul>
             <div className='sidebarListMobiles'>
 
-                <FaTachometerAlt size={24} />
+                <MdWindow size={24} onClick={()=>Offerpage("/dashboard/")}/>
 
 
-                <FaCogs size={24} />
+                <MdOutlineAttachMoney size={24} onClick={()=>Offerpage("/dashboard/offerpage")}/>
 
-                <FaBell size={24} />
+                <FaCalculator size={24} onClick={()=>Offerpage("/dashboard/emipage")}/>
 
-                <FaQuestionCircle size={24} />
+                <CgProfile size={24} onClick={()=>Offerpage("/dashboard/enrollment")}/>
                 <MdLogout size={24} />
 
             </div>
@@ -49,4 +62,4 @@ const UserSidebar = () => {
     );
 };
 
-export default UserSidebar;
+export default UsersideBar;

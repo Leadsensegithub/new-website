@@ -1,7 +1,8 @@
 import React from 'react'
-import { HiOutlineAcademicCap } from "react-icons/hi";
 import Assets from '../Assets/Assets';
 import '../Css/Enrollment.css'
+import { FaWhatsapp } from "react-icons/fa";
+import { IoCall } from "react-icons/io5";
 
 
 function Enrollment_details() {
@@ -35,6 +36,13 @@ function Enrollment_details() {
             </div>
         </div>
         </div>
+        </div>
+        
+
+        <h6 className='mt-3' style={{color:"#087FFF"}}>Consult Real Experts for free!</h6>
+        <div className='contact mt-3'>
+          <button style={{background:"green",color:"white"}}><FaWhatsapp /> Whatsapp </button>
+          <button style={{background:"darkblue", color:"white"}}><IoCall /> Call Now </button>
         </div>
       </div>
   )

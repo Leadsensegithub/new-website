@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../Css/Blog.css";
 import Assets from "../../Assets/Assets";
 import Slider from "react-slick";
@@ -8,6 +8,64 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function Blog() {
+   
+  const [image, setImage] = useState([
+    {
+      img1: Assets?.Jain_University_logo,
+      url: "Jain University",
+    },
+    {
+      img1: Assets?.Chandigarh_University_logo,
+      url: "Chandigarh University",
+    },
+    {
+      img1: Assets?.Noida_International_University_logo,
+      url: "Noida International University",
+    },
+    {
+      img1: Assets?.DY_Patil_University_logo,
+      url: "D.Y. Patil University",
+    },
+    {
+      img1: Assets?.KIIT_University_logo,
+      url: "KIIT University",
+    },
+    {
+      img1: Assets?.Dr_MGR_University_logo,
+      url: "Dr. MGR University",
+    },
+    {
+      img1: Assets?.Andhra_University_logo,
+      url: "Andhra University",
+    },
+    {
+      img1: Assets?.Kurukshetra_University_logo,
+      url: "Kurukshetra University",
+    },
+    {
+      img1: Assets?.OP_Jindal_Global_University_logo,
+      url: "OP Jindal Global University",
+    },
+    {
+      img1: Assets?.Vivekananda_Global_University_logo,
+      url: "Vivekananda Global University",
+    },
+    {
+      img1: Assets?.Bharathidasan_University_logo,
+      url: "Bharathidasan University",
+    },
+    {
+      img1: Assets?.Koneru_Lakshmaiah_Education_Foundation_KL_University_logo,
+      url: "Koneru Lakshmaiah Education Foundation (KL University",
+    },
+    {
+      img1: Assets?.Vignan_University_logo,
+      url: "Vignan University",
+    },
+  ]);
+
+
+
   const settings = {
     dots: true,
     infinite: true,
@@ -306,6 +364,19 @@ function Blog() {
               </Slider>
             </div>
           </div>
+          <div className="uni-image mt-5 mb-5">
+          <div className="uni-image">
+            <div className="item-main">
+              {image?.map((data, index) => {
+                return (
+                  <div className="items">
+                    <img src={data?.img1}></img>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
         </div>
       </div>
   );

@@ -2,9 +2,18 @@ import React, { useState } from "react";
 import "../../Css/Login.css";
 import Assets from "../../Assets/Assets";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../../components/Navbar";
 
 function Login() {
-  const navigate = useNavigate()
+  const Navigate = useNavigate();
+
+  const Dashboard = (e) => {
+    Navigate(e);
+  };
+
+  const [loginEmail, setLoginEmail] = useState("");
+  const [loginPass, setLoginPass] = useState("");
+  const [errorMsg, setErrorMsg] = useState("");
 
   const [image, setImage] = useState([
     {
@@ -65,139 +74,130 @@ function Login() {
     },
   ]);
 
+
+  const handleLogin = () => {
+
+    if (loginEmail === "collegeall@gmail.com" && loginPass === "123") {
+      Dashboard("/dashboard");
+    } else {
+      setErrorMsg("Please Enter Valid Email And Password");
+    }
+  };
+
   return (
     <div>
- <nav className="loginlogo  navbar navbar-light" style={{background:"#087FFF",top:"0px",position:"sticky"}}>
+      <Navbar />
+      <div className="container">
+        <div className="reg">
           <div className="container">
-            <a className="navbar-brand" href="#">
-              <img
-                src={Assets?.Logoinnerblack}
-                alt="Logo"
-                width="200"
-                height="50"
-              />
-            </a>
-            {/* <a className="btn btn-primary" href="#">
-              Sign Up
-            </a> */}
-          </div>
-        </nav>
-
-        <div className="container">
-      <div className="reg">
-        <div className="container">
-          {/* <div className="row"> */}
-          {/* <div className="col-lg-12"> */}
-          <div className="registration-container mt-5">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="university-container">
-                  <h4>
-                    Fill in your details now to <br></br>
-                    access your list...
-                  </h4>
-                  <div className="university-details">
-                    {image.map((data, index) => {
-                      return (
-                        <div key={index} className="university-items">
-                          <img src={data?.img1} alt={data?.url} />
-                        </div>
-                      );
-                    })}
-                  </div>
-                  <div className="globe-gif">
-                    <img src={Assets?.globe1} alt="Globe image" />
+            <div className="registration-container mt-5">
+              <div className="row">
+                <div className="col-lg-6">
+                  <div className="university-container">
+                    <h4>
+                      Fill in your details now to <br></br>
+                      access your list...
+                    </h4>
+                    <div className="university-details">
+                      {image.map((data, index) => {
+                        return (
+                          <div key={index} className="university-items">
+                            <img src={data?.img1} alt={data?.url} />
+                          </div>
+                        );
+                      })}
+                    </div>
+                    <div className="globe-gif">
+                      <img src={Assets?.globe1} alt="Globe image" />
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="col-lg-6">
-                <div className="form-container">
-                  <div className="row">
-                    <div>
-                      <section className="vh-100">
-                        <div className="container-fluid h-custom">
-                          <div className="row d-flex justify-content-center align-items-center h-100">
-                            <div className="col-lg-12 col-sm-12 col-12">
-                              <form>
-                                <h2
-                                  className="text-center mb-2"
-                                  style={{ color: "#087FFF" }}
-                                >
-                                  Login Form
-                                </h2>
-
-                                <div className="col-lg-12 col-sm-6 mt-3">
-                                  <label
-                                    className="form-label"
-                                    for="form3Example3"
+                <div className="col-lg-6">
+                  <div className="form-container">
+                    <div className="row">
+                      <div>
+                        <section className="vh-100">
+                          <div className="container-fluid h-custom">
+                            <div className="row d-flex justify-content-center align-items-center h-100">
+                              <div className="col-lg-12 col-sm-12 col-12">
+                                <form>
+                                  <h2
+                                    className="text-center mb-2"
+                                    style={{ color: "#087FFF" }}
                                   >
-                                    Email address
-                                  </label>
-                                  <input
-                                    type="email"
-                                    id="form3Example3"
-                                    className="form-control form-control-lg"
-                                    placeholder="Enter a valid email address"
-                                  />
-                                </div>
+                                    Login Form
+                                  </h2>
 
-                                <div className="col-lg-12 col-sm-6 mt-3">
-                                  <label
-                                    className="form-label"
-                                    for="form3Example4"
-                                  >
-                                    Password
-                                  </label>
-                                  <input
-                                    type="password"
-                                    id="form3Example4"
-                                    className="form-control form-control-lg"
-                                    placeholder="Enter password"
-                                  />
-                                </div>
-
-                                <div className="d-flex justify-content-between align-items-center">
-                                  <div className="form-check mb-0">
-                                    <input
-                                      className="form-check-input me-2"
-                                      type="checkbox"
-                                      value=""
-                                      id="form2Example3"
-                                    />
+                                  <div className="col-lg-12 col-sm-6 mt-3">
                                     <label
-                                      className="form-check-label"
-                                      for="form2Example3"
+                                      className="form-label"
+                                      for="form3Example3"
                                     >
-                                      Remember me
+                                      Email address
                                     </label>
+                                    <input
+                                      type="email"
+                                      id="form3Example3"
+                                      className="form-control form-control-lg"
+                                      placeholder="Enter a valid email address"
+                                      value={loginEmail}
+                                      onChange={(e) => setLoginEmail(e.target.value)}
+                                    />
                                   </div>
-                                  <a href="#!" className="text-body">
-                                    Forgot password?
-                                  </a>
-                                </div>
 
-                                <div className="text-center text-lg-start mt-4 pt-2">
-                                  <div className="text-center mt-3">
-                                    <button
-                                      type="button"
-                                      className="btn btn-primary"
+                                  <div className="col-lg-12 col-sm-6 mt-3">
+                                    <label
+                                      className="form-label"
+                                      for="form3Example4"
                                     >
-                                      Login
-                                    </button>
+                                      Password
+                                    </label>
+                                    <input
+                                      type="password"
+                                      id="form3Example4"
+                                      className="form-control form-control-lg"
+                                      placeholder="Enter password"
+                                      value={loginPass}
+                                      onChange={(e) => setLoginPass(e.target.value)}
+                                    />
                                   </div>
-                                  <p class="small fw-bold mt-2 pt-1 mb-0">
-                                    Don't have an account?{" "}
-                                    <a href="#!" className="link-danger" onClick={()=>navigate("/sign-in")}>
-                                      Sign up
+
+                                  {errorMsg && <small className="text-danger mt-2">{errorMsg}</small>}
+
+                                  <div className="d-flex justify-content-end align-items-center" >
+                                    <a href="#!" className="text-body">
+                                      Forgot password?
                                     </a>
-                                  </p>
-                                </div>
-                              </form>
+                                  </div>
+
+                                  <div className="text-center text-lg-start mt-4 pt-2">
+                                    <div className="text-center mt-3">
+                                      <button
+                                        onClick={()=>handleLogin()}
+                                        type="button"
+                                        className="btn btn-primary"
+                                      >
+                                        Login
+                                      </button>
+                                    </div>
+                                    <p class="small fw-bold mt-2 pt-1 mb-0">
+                                      Don't have an account?{" "}
+                                      <a
+                                        href="#!"
+                                        className="link-danger"
+                                        onClick={() => Navigate("/sign-in")}
+                                      >
+                                        Sign up
+                                      </a>
+                                    </p>
+                                  </div>
+                                </form>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </section>
+                        </section>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -205,7 +205,6 @@ function Login() {
             </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
   );

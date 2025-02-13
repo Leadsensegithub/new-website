@@ -4,6 +4,7 @@ import Assets from "../Assets/Assets";
 
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
+import Navbar from "../components/Navbar";
 
 function RegForm() {
   const [image, setImage] = useState([
@@ -161,30 +162,10 @@ function RegForm() {
 
   return (
     <div>
-      
-        <nav className="navbar navbar-light" style={{background:"#087FFF",top:"0px",position:"sticky"}}>
-          <div className="container">
-            <a className="navbar-brand" href="#">
-              <img
-                src={Assets?.Logoinnerblack}
-                alt="Logo"
-                width="200"
-                height="50"
-              />
-            </a>
-            {/* <a className="btn btn-primary" href="#">
-              Sign Up
-            </a> */}
-          </div>
-        </nav>
-
-  
-
+      <Navbar />
   <div className="container">
       <div className="reg">
         <div className="container">
-          {/* <div className="row"> */}
-          {/* <div className="col-lg-12"> */}
           <div className="registration-container mt-5">
             <div className="row">
               <div className="col-lg-6">
