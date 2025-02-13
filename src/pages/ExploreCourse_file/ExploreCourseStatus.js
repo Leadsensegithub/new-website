@@ -6,7 +6,7 @@ function ExploreCourseStatus() {
             <div className="ExploreCourseStatus">
                 <div className="row">
                     <div className="col-lg-12">
-                        <h2>Eligibility & Duration</h2>
+                        <h2 style={{textAlign:"start"}}>Eligibility & Duration</h2>
                     </div>
                     <div className="col-lg-12">
 

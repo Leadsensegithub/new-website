@@ -4,6 +4,7 @@ import { MdLogout } from 'react-icons/md'; // Logout icon
 import '../../Css/UserSidebar.css';
 
 const UserSidebar = () => {
+
     return (
         <div className="sidebar">
             <ul className="sidebarList">
@@ -24,17 +25,11 @@ const UserSidebar = () => {
                 </li>
             </ul>
             <div className='sidebarListMobiles'>
-
                 <FaTachometerAlt size={24} />
-
-
                 <FaCogs size={24} />
-
                 <FaBell size={24} />
-
                 <FaQuestionCircle size={24} />
                 <MdLogout size={24} />
-
             </div>
         </div>
     );

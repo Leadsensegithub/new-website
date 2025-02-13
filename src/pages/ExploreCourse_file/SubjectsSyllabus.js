@@ -55,7 +55,7 @@ const SubjectsSyllabus = () => {
     return (
         <div className='row'>
             <div className='col-lg-12'>
-                <h1 style={{ textAlign: "start" }}>Subjects & Syllabus</h1>
+                <h2 style={{ textAlign: "start" }}>Subjects & Syllabus</h2>
             </div>
             <div className='col-lg-12'>
                 <div className="syllabus-container">

@@ -9,15 +9,14 @@ function Default_Dashboard_layout() {
     return (
         <>
             <div className="row">
-                <div className="col-lg-12">
+                <div className="col-lg-12 col-md-12">
                     <Navbar />
                 </div>
-                <div className="col-lg-2">
+                <div className="col-lg-3 col-md-2">
                     <UserSidebar />
                 </div>
-                <div className="col-lg-10">
+                <div className="col-lg-9 col-md-10">
                     <div className="flex flex-col flex-1">
-
                         <div className="p-4">
                             <Suspense>
                                 <Routes>
