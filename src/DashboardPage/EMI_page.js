@@ -39,13 +39,13 @@ function EMI_page() {
           </h4>
           <div className="row">
             <div className="col-lg-5">
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">
+              <div className="input-group mb-3">
+                <span className="input-group-text" id="basic-addon1">
                   <CgProfile />
                 </span>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Firstname"
                   aria-label="Username"
                   aria-describedby="basic-addon1"
@@ -54,13 +54,13 @@ function EMI_page() {
             </div>
 
             <div className="col-lg-5">
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">
+              <div className="input-group mb-3">
+                <span className="input-group-text" id="basic-addon1">
                   <CgProfile />
                 </span>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Lastname"
                   aria-label="Username"
                   aria-describedby="basic-addon1"
@@ -80,14 +80,14 @@ function EMI_page() {
             </div>
 
             <div className="col-lg-5">
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">
+              <div className="input-group mb-3">
+                <span className="input-group-text" id="basic-addon1">
                   <MdEmail />
                 </span>
                 <input
                   type="email"
                   name="email"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   placeholder="name@example.com"
                 />
@@ -95,13 +95,13 @@ function EMI_page() {
             </div>
 
             <div className="col-lg-5">
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">
+              <div className="input-group mb-3">
+                <span className="input-group-text" id="basic-addon1">
                 <FaTransgender />
                 </span>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Gender"
                   aria-label="Gender"
                   aria-describedby="basic-addon1"
@@ -110,13 +110,13 @@ function EMI_page() {
             </div>
                 
             <div className="col-lg-5">
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">
+              <div className="input-group mb-3">
+                <span className="input-group-text" id="basic-addon1">
                 <GiBigDiamondRing />
                 </span>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Marital Status"
                   aria-label="Marital Status"
                   aria-describedby="basic-addon1"
@@ -125,13 +125,13 @@ function EMI_page() {
             </div>
 
             <div className="col-lg-5">
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">
+              <div className="input-group mb-3">
+                <span className="input-group-text" id="basic-addon1">
                 <FaRegIdCard />
                 </span>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="PAN Number"
                   aria-label="PAN Number"
                   aria-describedby="basic-addon1"
@@ -140,13 +140,13 @@ function EMI_page() {
             </div>
 
             <div className="col-lg-5">
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">
+              <div className="input-group mb-3">
+                <span className="input-group-text" id="basic-addon1">
                 <TbMapPinCode />
                 </span>
                 <input
                   type="number"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Pin code"
                   aria-label="Pin code"
                   aria-describedby="basic-addon1"

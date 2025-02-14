@@ -95,3 +95,12 @@
 .suggest .btntop p {
     margin: 0%;
 }
+
+@media only screen and (max-width: 900px){
+    .suggest-img .card-body{
+        padding: 10px;
+    }
+    .suggest-img .card-body h5{
+        font-size: 12px;
+    }
+}

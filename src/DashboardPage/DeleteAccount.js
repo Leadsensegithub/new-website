@@ -1,7 +1,10 @@
 import React from "react";
 import { IoClose } from "react-icons/io5";
 import "../Css/Deleteaccount.css";
-// import '../components/UserDashboard/UsersideBar'
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+
 
 function DeleteAccount() {
   const styles = {
@@ -75,11 +78,7 @@ function DeleteAccount() {
           <h6>Confirm</h6>
         </div>
       )}
-      <UsersideBar 
-      openModal={openModal}
-      styles={styles}
-      
-      />
+     
     </div>
   );
 }

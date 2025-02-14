@@ -159,7 +159,7 @@ function Uni_register() {
             <div className="item-main">
               {image?.map((data, index) => {
                 return (
-                  <div className="items">
+                  <div className="items" key={index}>
                     <img src={data?.img1}></img>
                   </div>
                 );
@@ -249,8 +249,8 @@ function Uni_register() {
 
                       <div className="col-lg-6 col-sm-6 col-6 mt-3">
                         <div className="input-form">
-                          <label for="exampleFormControlInput1">
-                            Email {" "}
+                          <label htmlFor="exampleFormControlInput1">
+                            Email 
                           </label>
                           <input
                             type="email"
@@ -309,7 +309,7 @@ function Uni_register() {
                         <div className="input-form">
                           <label>State</label>
                           <input
-                            class="form-control"
+                            className="form-control"
                             type="text"
                             name="state"
                             value={values.state}
@@ -328,7 +328,7 @@ function Uni_register() {
                       <div className="input-form">
                         <label>Country</label>
                         <input
-                          class="form-control"
+                          className="form-control"
                           type="text"
                           name="country"
                           value={values.country}

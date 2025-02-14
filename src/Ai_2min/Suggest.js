@@ -11,6 +11,11 @@ import { useNavigate } from 'react-router-dom';
 
 
 function Suggest() {
+
+    const navigate = (e) => {
+        Navigate(e)
+    }
+
     const [veriable, setVeriable] = useState(true)
     const [name, setName] = useState(
         {
@@ -83,7 +88,7 @@ function Suggest() {
 
                 <div className='navbar_sign'>
                     <div>
-                        <button type="button" class="btn btn-outline-primary">sign in</button>
+                        <button type="button" className="btn btn-outline-primary" onClick={()=>navigate("/sign-in")}>Sign in</button>
                     </div>
                     <div>
                         <IoIosRefresh />
@@ -95,7 +100,7 @@ function Suggest() {
                 <div className='col-lg-12'>
                     <div className='minutes pt-2'>
                         <div><CiClock2 /></div>
-                        <div><p>your best match is just 5minutes away!</p></div>
+                        <div><p>Your best match is just 5minutes away!</p></div>
                     </div>
                 </div>
             </div>
@@ -156,7 +161,7 @@ function Suggest() {
 
             <div className='btn1'>
 
-                <button type="button" class="btn btn-warning ">Next</button>
+                <button type="button" className="btn btn-warning ">Next</button>
 
                 <div className='btn2'>
                     <div className='btntop'>

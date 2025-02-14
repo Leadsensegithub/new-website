@@ -4,8 +4,64 @@ import UserSidebar from "../components/UserDashboard/UsersideBar";
 import DashboardRoute from "../Route/DashboardRoute";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import DeleteAccount from "../DashboardPage/DeleteAccount";
+import { useNavigate } from "react-router-dom";
 
 function Default_Dashboard_layout() {
+     const styles = {
+        modalOverlay: {
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          zIndex: 1000,
+        },
+        modalContent: {
+          backgroundColor: "#fff",
+          padding: "2rem",
+          borderRadius: "8px",
+          width: "500px",
+          // height: "200px",
+          textAlign: "center",
+        },
+        closeButton: {
+          backgroundColor: "red",
+          color: "#fff",
+          border: "none",
+          padding: "0.5rem 1rem",
+          cursor: "pointer",
+          borderRadius: "4px",
+          fontSize: "16px",
+          minWidth: "0px",
+          width: "100%",
+        },
+      };
+      const [isScrolled, setIsScrolled] = useState(false);
+      const [isModalOpen, setIsModalOpen] = useState(false);
+      const navigate = useNavigate();
+    
+      useEffect(() => {
+        const handleScroll = () => {
+          if (window.scrollY > 50) {
+            setIsScrolled(true);
+          } else {
+            setIsScrolled(false);
+          }
+        };
+    
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+      }, []);
+    
+      const openModal = () => setIsModalOpen(true);
+      const closeModal = () => setIsModalOpen(false);
+    
+     
     return (
         <>
             <div className="row">
@@ -41,6 +97,9 @@ function Default_Dashboard_layout() {
                         </div>
                     </div>
                 </div>
+
+            </div>
+            <div>
 
             </div>
         </>

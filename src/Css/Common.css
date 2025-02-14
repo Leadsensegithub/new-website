@@ -50,7 +50,7 @@ nav .top-header {
     }
     .home-heading {
         height: 220px !important;
-        background-image: url('../Assets/banners/edu_home_mobile.webp') !important;
+        background-image: url('../Assets/banners/edu_home_mobile.png') !important;
         background-size: 100%;
         
     }
@@ -187,7 +187,7 @@ nav .top-header {
 
 .home-heading {
     height: 320px;
-    background-image: url('../Assets/banners/edu_home.webp');
+    background-image: url('../Assets/banners/edu_home_mobile.png');
     background-size: 100%;
     display: flex;
     justify-content: start;

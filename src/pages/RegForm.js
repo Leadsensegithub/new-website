@@ -185,7 +185,7 @@ function RegForm() {
                       <div className="input-form">
                         <label>Full Name</label>
                         <input
-                          class="form-control"
+                          className="form-control"
                           type="text"
                           name="userName"
                           value={values.userName}
@@ -202,7 +202,7 @@ function RegForm() {
                       <div className="input-form">
                         <label>Age</label>
                         <input
-                          class="form-control"
+                          className="form-control"
                           name="age"
                           type="text"
                           value={values.age}
@@ -223,7 +223,7 @@ function RegForm() {
                         <input
                           type="email"
                           name="email"
-                          class="form-control"
+                          className="form-control"
                           id="exampleFormControlInput1"
                           placeholder="name@example.com"
                           value={values.email}
@@ -274,7 +274,7 @@ function RegForm() {
                       <div className="input-form">
                         <label>State</label>
                         <input
-                          class="form-control"
+                          className="form-control"
                           type="text"
                           name="state"
                           value={values.state}
@@ -291,7 +291,7 @@ function RegForm() {
                       <div className="input-form">
                         <label>Country</label>
                         <input
-                          class="form-control"
+                          className="form-control"
                           type="text"
                           name="country"
                           value={values.country}
@@ -310,7 +310,7 @@ function RegForm() {
                       <div className="input-form">
                         <label>Highest Qualification</label>
                         <select
-                          class="form-select"
+                          className="form-select"
                           name="qualification"
                           value={values.qualification}
                           onChange={(e) => handleChange(e)}

@@ -181,7 +181,7 @@ function Login() {
                                         Login
                                       </button>
                                     </div>
-                                    <p class="small fw-bold mt-2 pt-1 mb-0">
+                                    <p className="small fw-bold mt-2 pt-1 mb-0">
                                       Don't have an account?{" "}
                                       <a
                                         href="#!"

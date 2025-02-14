@@ -119,7 +119,7 @@ function DashboardHome() {
                     <div className="input-form">
                       <label>Full Name</label>
                       <input
-                        class="form-control"
+                        className="form-control"
                         type="text"
                         name="userName"
                         value={values.userName}
@@ -140,7 +140,7 @@ function DashboardHome() {
                       <input
                         type="email"
                         name="email"
-                        class="form-control"
+                        className="form-control"
                         id="exampleFormControlInput1"
                         placeholder="name@example.com"
                         value={values.email}
@@ -173,7 +173,7 @@ function DashboardHome() {
                     <div className="input-form">
                       <label>State</label>
                       <input
-                        class="form-control"
+                        className="form-control"
                         type="text"
                         name="state"
                         value={values.state}
@@ -190,7 +190,7 @@ function DashboardHome() {
                     <div className="input-form">
                       <label>Country</label>
                       <input
-                        class="form-control"
+                        className="form-control"
                         type="text"
                         name="country"
                         value={values.country}

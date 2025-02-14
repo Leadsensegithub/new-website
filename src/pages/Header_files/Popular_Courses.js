@@ -202,7 +202,7 @@ function Popular_Courses() {
         <div className="slider-container mt-4">
           <Slider {...settings}>
             {degreeSlide?.map((filter, index) => (
-              <div style={{ marginRight: "10px" }}>
+              <div style={{ marginRight: "10px" }} key={index}>
                 <button
                   key={index}
                   className={index === activeIndex ? "active" : ""}
@@ -281,7 +281,7 @@ function Popular_Courses() {
             <div className="row">
               {university?.slice(0, 8)?.map((data, index) => {
                 return (
-                  <div className="col-lg-3 col-6">
+                  <div className="col-lg-3 col-6" key={index}>
                     <div className="card mt-3">
                       <div className="university-content">
                         <img
@@ -299,8 +299,8 @@ function Popular_Courses() {
                 );
               })}
             </div>
-            <div class="text-center mt-3">
-              <button type="button" class="btn btn-primary">
+            <div className="text-center mt-3">
+              <button type="button" className="btn btn-primary">
                 View ALL
               </button>
             </div>

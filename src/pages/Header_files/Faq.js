@@ -66,7 +66,7 @@ const Faq = () => {
                         {ans.map((data, index) => {
                             return (
 
-                                <div className="faq_button">
+                                <div className="faq_button" key={index}>
                                     <div className="faq_inner">
                                         <button onClick={() => handleAnswer(index)}>{index + 1}. {data.question}</button>
                                         {num === index && (

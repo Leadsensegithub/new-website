@@ -369,7 +369,7 @@ function Blog() {
             <div className="item-main">
               {image?.map((data, index) => {
                 return (
-                  <div className="items">
+                  <div className="items" key={index}>
                     <img src={data?.img1}></img>
                   </div>
                 );

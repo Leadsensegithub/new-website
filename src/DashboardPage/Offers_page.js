@@ -174,7 +174,7 @@ function Offers_page() {
                   CV Wallet <IoIosWallet />
                 </h2>
                 <h6 className="ps-5 mt-3">Get CV Subsidy Cashback Upto</h6>
-                <h2 className="mt-3" style={{ color: " #087FFF" }}>
+                <h2 className="mt-3 text-center" style={{ color: " #087FFF" }}>
                   ₹5000
                 </h2>
                 <p className="ps-5">
@@ -213,7 +213,7 @@ function Offers_page() {
                       <div className="input-form">
                         <label>Full Name</label>
                         <input
-                          class="form-control"
+                          className="form-control"
                           type="text"
                         />
                       </div>
@@ -223,7 +223,7 @@ function Offers_page() {
                       <div className="input-form">
                         <label>Phone Number</label>
                         <input
-                          class="form-control"
+                          className="form-control"
                           type="number"
                         />
                       </div>
@@ -233,7 +233,7 @@ function Offers_page() {
                       <div className="input-form">
                         <label>Email Id</label>
                         <input
-                          class="form-control"
+                          className="form-control"
                           type="text"
                         />
                       </div>
@@ -243,7 +243,7 @@ function Offers_page() {
                       <div className="input-form">
                         <label>Age</label>
                         <input
-                          class="form-control"
+                          className="form-control"
                           type="text"
                         />
                       </div>
