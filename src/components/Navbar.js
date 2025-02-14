@@ -5,6 +5,14 @@ import Assets from "../Assets/Assets";
 import Popular_Courses from "../pages/Header_files/Popular_Courses";
 
 const Navbar = () => {
+    
+   const Navigate = useNavigate();
+      
+        const Homepage = (e) => {
+          Navigate(e);
+        };
+      
+
   const styles = {
     nav: {
       display: "flex",
@@ -112,7 +120,7 @@ const Navbar = () => {
   return (
     <nav style={styles.nav} className={`header ${isScrolled ? "scrolled" : ""}`}>
       <div className="logo-header" style={styles.logo}>
-        <img src={Assets?.Logoinnerblack} alt="Logo" />
+        <img src={Assets?.Logoinnerblack} alt="Logo" onClick={()=>Homepage("/")} />
       </div>
       <div style={styles.searchBar} className="mobile">
         <input type="text" placeholder="Search..." style={styles.searchInput} />

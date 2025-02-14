@@ -1,0 +1,18 @@
+.error-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+}
+.error-page button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.error-page button svg{
+    font-size: 25px;
+}
