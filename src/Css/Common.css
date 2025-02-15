@@ -108,7 +108,7 @@ nav .top-header {
     }
 
     .home-heading-bottom {
-    
+
         background: linear-gradient(to right, #207de2, #b1d2f4);
         padding: 20px;
         color: white;
@@ -133,6 +133,14 @@ nav .top-header {
         display: none;
     }
 
+    .spaa .card {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
     .courselist {
         display: none !important;
     }
@@ -150,9 +158,20 @@ nav .top-header {
     }
 
     .course .course-slider .slider-container {
-        display: block !important;
+        display: flex !important;
         padding: 0px 10px;
+        overflow-x: scroll;
 
+    }
+
+    .course .university .card {
+        margin: 0px;
+        padding: 5px !important;
+        cursor: pointer;
+    }
+
+    .course {
+        padding: 5px !important;
     }
 
     .course .course-slider .slider-container button {
@@ -242,7 +261,7 @@ nav .top-header {
 }
 
 .home-heading-bottom {
-    background: linear-gradient(to right, #207de2, #b1d2f4);
+    background: linear-gradient(to right, #004aad, #b1d2f4);
     padding: 20px;
     color: white;
     background-size: 100%;
@@ -537,7 +556,7 @@ nav .top-header {
 }
 
 .alumni-heading {
-    background-color: #087FFF;
+    background-color: #004aad;
     height: 100vh;
 }
 
@@ -657,7 +676,7 @@ nav .top-header {
 .uni-content {
 
     color: whitesmoke;
-    background-color: #087FFF;
+    background-color: #004aad;
 
 }
 
@@ -717,7 +736,9 @@ nav .top-header {
 }
 
 
-
+.vvvv {
+    font-size: 16px !important;
+}
 
 @media only screen and (max-width: 900px) {
     .item-main::before {
@@ -730,6 +751,10 @@ nav .top-header {
 
     .item-main {
         margin: 50px 0px;
+    }
+
+    .vvvv {
+        font-size: 8px !important;
     }
 
 }
@@ -761,10 +786,8 @@ nav .top-header {
 
 .items img {
     width: 200px;
-    box-shadow: -6px 2px 9px rgb(199 195 195);
     border-radius: 10px;
 }
-
 
 @keyframes slide {
     from {

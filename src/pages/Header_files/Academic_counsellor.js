@@ -52,7 +52,7 @@ function Academic_counsellor() {
       <div className="row">
         {Ac?.map((data, index) => {
           return (
-            <div className="col-12 col-lg-3 col-sm-6 col-md-4" key={index}>
+            <div className="col-lg-3  mt-4 col-sm-6 col-md-4" key={index}>
               <div className="card" style={{ height: "320px" }}>
                 <div className="d-flex justify-content-center">
                   <div className="academic-details" style={{ textAlign: "start" }}>

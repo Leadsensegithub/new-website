@@ -200,19 +200,18 @@ function Popular_Courses() {
       <h2>Recommendation</h2>
       <div className="course-slider">
         <div className="slider-container mt-4">
-          <Slider {...settings}>
-            {degreeSlide?.map((filter, index) => (
-              <div style={{ marginRight: "10px" }} key={index}>
-                <button
-                  key={index}
-                  className={index === activeIndex ? "active" : ""}
-                  onClick={() => setActiveIndex(index)}
-                >
-                  {filter?.degreename}
-                </button>
-              </div>
-            ))}
-          </Slider>
+
+          {degreeSlide?.map((filter, index) => (
+            <div style={{ marginRight: "10px" }} key={index}>
+              <button
+                key={index}
+                className={index === activeIndex ? "active" : ""}
+                onClick={() => setActiveIndex(index)}
+              >
+                {filter?.degreename}
+              </button>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -288,7 +287,7 @@ function Popular_Courses() {
                           src={data.university_img}
                           alt={data.university_name}
                         />
-                        <h5 style={{ backgroundColor: "blue",color:"white",padding:"10px" }} >{data.course_name}</h5>
+                        <h5 style={{ backgroundColor: "#004aad", color: "white", padding: "10px" }} >{data.course_name}</h5>
                         <h6>{data.university_name}</h6>
                         <h6>{data.duration}</h6>
                         <h6>{data.date}</h6>
@@ -300,7 +299,7 @@ function Popular_Courses() {
               })}
             </div>
             <div className="text-center mt-3">
-              <button type="button" className="btn btn-primary">
+              <button type="button" style={{backgroundColor:"#004aad"}} className="btn btn-primary">
                 View ALL
               </button>
             </div>

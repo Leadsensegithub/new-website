@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7fd7233a.css",
-    "main.js": "/static/js/main.5d0791a4.js",
+    "main.css": "/static/css/main.b8eb8b5e.css",
+    "main.js": "/static/js/main.84165ecd.js",
     "static/js/488.5649a9e0.chunk.js": "/static/js/488.5649a9e0.chunk.js",
     "static/media/Noida_International_University.jpeg": "/static/media/Noida_International_University.c61cc533ccf136c22494.jpeg",
     "static/media/Kurukshetra_University.png": "/static/media/Kurukshetra_University.5959925de801f5a27380.png",
@@ -62,10 +62,8 @@
     "static/media/OP_Jindal_Global_University.png": "/static/media/OP_Jindal_Global_University.2daa02a00f3109f1e5db.png",
     "static/media/Koneru_Lakshmaiah_Education_Foundation_(KL University).png": "/static/media/Koneru_Lakshmaiah_Education_Foundation_(KL University).4413e90c7e137adb3221.png",
     "static/media/education.png": "/static/media/education.386fe7da3eb2a2be8d55.png",
-    "static/media/bg.webp": "/static/media/bg.fa80196d867fb2d8b680.webp",
     "static/media/study-abroad.png": "/static/media/study-abroad.915754c80860017721e1.png",
     "static/media/Noida_nternational_University.png": "/static/media/Noida_nternational_University.6bf72a01c7a3d4bd2ac1.png",
-    "static/media/Frame 2_4x.webp": "/static/media/Frame 2_4x.485190c76f9b9e6fef9f.webp",
     "static/media/Chandigarh_University.png": "/static/media/Chandigarh_University.cf14cdca5780e7ffda41.png",
     "static/media/Vivekananda_Global_University.png": "/static/media/Vivekananda_Global_University.d00dadb1db84850cd449.png",
     "static/media/graduated.png": "/static/media/graduated.a45eb8c254fd30a7eadf.png",
@@ -77,12 +75,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.7fd7233a.css.map": "/static/css/main.7fd7233a.css.map",
-    "main.5d0791a4.js.map": "/static/js/main.5d0791a4.js.map",
+    "main.b8eb8b5e.css.map": "/static/css/main.b8eb8b5e.css.map",
+    "main.84165ecd.js.map": "/static/js/main.84165ecd.js.map",
     "488.5649a9e0.chunk.js.map": "/static/js/488.5649a9e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fd7233a.css",
-    "static/js/main.5d0791a4.js"
+    "static/css/main.b8eb8b5e.css",
+    "static/js/main.84165ecd.js"
   ]
 }

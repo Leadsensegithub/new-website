@@ -180,7 +180,7 @@ function Uni_register() {
                     rhoncus ut,
                   </h4>
 
-                  <div className="row">
+                  <div className="row mobile">
                     <div className="col-lg-4 mt-3">
                       <h2>{num?.years}</h2>
                       <h3>{num?.experience}</h3>

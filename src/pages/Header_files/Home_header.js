@@ -4,8 +4,10 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
-import Slider from "react-slick";
-import Assets from "../../Assets/Assets";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import { Carousel } from "bootstrap";
+
 
 function Home_header() {
   const [items, setItems] = useState({
@@ -14,21 +16,21 @@ function Home_header() {
     btn1: "Expolre universities",
     home_1: {
       years: "7 years",
-      experience: "year of experiance",
+      experience: "Experiance",
 
       stu: "1000+",
-      tru_stu: "trusted student",
+      tru_stu: "Trusted Student",
 
       coun: "50+",
-      academic_coun: "academic counselor",
+      academic_coun: "Academic Counselor",
     },
     home_2: {
-      head: "popular online course",
+      head: "Popular Online Course",
       paratag:
         "lorem  paratage experince work the server the unverisity graduation of the year",
     },
   });
-  const Array = [
+  const slides = [
     {
       title: "Enroll Now Today",
       para: "Start your journey towards success with our courses.",
@@ -49,7 +51,7 @@ function Home_header() {
       para: "Engage in group studies and grow with your peers in a dynamic setting.",
       img: "https://tse2.mm.bing.net/th?id=OIP.YKVk_9nR_908e_47qpRE3QHaE7&pid=Api"
     }
-  ]
+  ];
 
 
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -222,81 +224,59 @@ function Home_header() {
     const validate = Validation();
     // console.log(validate);
   };
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
 
+  useEffect(() => {
+    const carouselElement = document.querySelector("#carouselExampleIndicators");
+    new Carousel(carouselElement, {
+      interval: 3000,
+      ride: "carousel",
+    });
+  }, []);
   return (
     <div className="">
       <div>
-        <Slider {...settings}>
-          {Array?.map((data, index) => {
-            return (
-              <div style={{ position: "relative", width: "100%" }}>
-                <div>
-                  <img
-                    src={data?.img}
-                    alt="Andhra University"
-                    style={{
-                      width: "100%",
-                      height: "350px",
-                      objectFit: "cover",
-                    }}
-                  />
-                </div>
-
-                <div
-                  className="header-img-buttons"
+        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-indicators">
+            {slides.map((_, index) => (
+              <button
+                key={index}
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to={index}
+                className={index === 0 ? "active" : ""}
+                aria-label={`Slide ${index + 1}`}
+              ></button>
+            ))}
+          </div>
+          <div className="carousel-inner" style={{ height: "300px" }}>
+            {slides.map((slide, index) => (
+              <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`} style={{ height: "300px" }}>
+                <img src={slide.img} className="d-block w-100" alt={slide.title} style={{ height: "100%", objectFit: "cover" }} />
+                <div className="carousel-caption d-md-block">
+                  <h5>{slide.title}</h5>
+                  <p>{slide.para}</p>
+                  <a href="#" className="btn btn-primary"
                   style={{
-                    position: "absolute",
-                    top: "0",
-                    textAlign: "center",
-                    width: "1520px",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    height: "350px",
-                    backgroundColor: "#00000078"
+                    backgroundColor:"#004aad",
+                    borderRadius:"2px"
                   }}
-
-                >
-                  <div>
-                    <h1 style={{ color: "white" }}>{items.heading}</h1>
-                    <p style={{ color: "white" }} className="fs-3">{items.paratag}</p>
-
-                    <div style={{ textAlign: "center" }} className="mobilee">
-                      <button
-                        className="btn btn-primary"
-                        onClick={
-                          isSmallScreen ? handleClickSmallScreen : handleClickLargeScreen
-                        }
-                        style={styles.linkButton}
-                      >
-                        {items.btn1}
-                      </button>
-                    </div>
-                  </div>
+                    onClick={
+                      isSmallScreen ? handleClickSmallScreen : handleClickLargeScreen
+                    }
+                  >Learn More</a>
                 </div>
-
               </div>
-            )
-          })}
-
-
-        </Slider>
-
+            ))}
+          </div>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div>
         {isModalOpen && (
           <div style={styles.modalOverlay} onClick={closeModal}>
             <div
@@ -544,15 +524,7 @@ function Home_header() {
             <h1>{items.home_2.head}</h1>
             <p>{items.home_2.paratag}</p>
           </div>
-          <div className="row">
-            <div className="col-lg-4">
-              <div className="card">
-                <div className="card-body">
 
-                </div>
-              </div>
-            </div>
-          </div>
 
         </div>
 

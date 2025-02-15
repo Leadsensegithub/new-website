@@ -5,13 +5,13 @@ import Assets from "../Assets/Assets";
 import Popular_Courses from "../pages/Header_files/Popular_Courses";
 
 const Navbar = () => {
-    
-   const Navigate = useNavigate();
-      
-        const Homepage = (e) => {
-          Navigate(e);
-        };
-      
+
+  const Navigate = useNavigate();
+
+  const Homepage = (e) => {
+    Navigate(e);
+  };
+
 
   const styles = {
     nav: {
@@ -36,7 +36,7 @@ const Navbar = () => {
       borderRadius: "4px",
       border: "1px solid #ccc",
       fontSize: "16px",
-      width: "250px", 
+      width: "250px",
     },
     searchIcon: {
       position: "absolute",
@@ -52,7 +52,7 @@ const Navbar = () => {
       background: "none",
       color: "#000",
       border: "1px solid #ccc",
-      fontSize: "16px",
+   
       fontWeight: "500",
       padding: "0.5rem 1rem",
       cursor: "pointer",
@@ -61,11 +61,11 @@ const Navbar = () => {
     signInButton: {
       color: "white",
       backgroundColor: "#087FFF",
-      padding:"5px 10px",
+      padding: "5px 10px",
       borderRadius: "4px",
       border: "1px solid white",
       cursor: "pointer",
-      fontSize:"15px",
+      fontSize: "15px",
     },
     modalOverlay: {
       position: "fixed",
@@ -120,20 +120,20 @@ const Navbar = () => {
   return (
     <nav style={styles.nav} className={`header ${isScrolled ? "scrolled" : ""}`}>
       <div className="logo-header" style={styles.logo}>
-        <img src={Assets?.Logoinnerblack} alt="Logo" onClick={()=>Homepage("/")} />
+        <img src={Assets?.Logoinnerblack} alt="Logo" onClick={() => Homepage("/")} />
       </div>
       <div style={styles.searchBar} className="mobile">
         <input type="text" placeholder="Search..." style={styles.searchInput} />
         <FaSearch style={styles.searchIcon} className="mobile" />
       </div>
-      <div style={styles.linksContainer} className="mobile">
-        <button onClick={openModal} style={styles.linkButton}>Explore Programs</button>
-        <button onClick={() => navigate("/suggest-universities")} className="mobile" style={styles.linkButton}>
+      <div style={styles.linksContainer} >
+        <button onClick={openModal} style={styles.linkButton} className="mobile vvvv">Explore Programs</button>
+        <button onClick={() => navigate("/suggest-universities")} style={styles.linkButton} className="vvvv">
           Suggest Universities in 5 mins
         </button>
       </div>
       <div>
-        <button onClick={() => navigate("/login")} style={styles.signInButton}>
+        <button onClick={() => navigate("/login")} className="mobile" style={styles.signInButton}>
           Login
         </button>
       </div>
