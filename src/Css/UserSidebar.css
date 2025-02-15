@@ -6,7 +6,7 @@
     margin-top: 20px;
     background-color: #fffefe;
     /* color: rgb(81, 0, 255); */
-    color:  #087FFF;
+    color:  #1868ae ;
     padding-top: 20px;
     z-index: 1000;
     box-shadow: 2px 0 5px rgba(198, 198, 198, 0.3);
@@ -18,7 +18,7 @@
 
 }
 .sidebarList .active {
-    background-color: #087FFF !important;
+    background-color: #1868ae  !important;
     color: white;
 }
 
@@ -42,11 +42,11 @@
 }
 
 .sidebarItem:hover {
-    background-color: #087FFF;
+    background-color: #1868ae ;
     color: white;
 }
 .sidebarList .active {
-    background-color: #087FFF;
+    background-color: #1868ae ;
     color: white;
 }
 

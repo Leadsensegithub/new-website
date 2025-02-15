@@ -13,6 +13,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
+import { FaTelegramPlane } from "react-icons/fa";
+
 
 
 
@@ -174,7 +176,7 @@ function Offers_page() {
                   CV Wallet <IoIosWallet />
                 </h2>
                 <h6 className="ps-5 mt-3">Get CV Subsidy Cashback Upto</h6>
-                <h2 className="mt-3 text-center" style={{ color: " #087FFF" }}>
+                <h2 className="mt-3 text-center" style={{ color: "#1868ae" }}>
                   ₹5000
                 </h2>
                 <p className="ps-5">
@@ -290,7 +292,7 @@ function Offers_page() {
             <div className="qrcode">
               <h2 className="mt-3">Exclusive Referral Link</h2>
               <img src={Assets?.QR} alt="QR Code" />
-              <button className="mt-4">
+              <button className="mt-4" style={{backgroundColor: "white",color:"darkblue",border:"1px solid #1868ae"}}>
                 <IoMdDownload />
                 Download
               </button>
@@ -306,6 +308,9 @@ function Offers_page() {
                 </button>
                 <button className="mt-5">
                   <FaLinkedin  style={{color:"darkblue",fontSize:"25px"}} />
+                </button>
+                <button className="mt-5">
+                  <FaTelegramPlane style={{color:"#087FFF",fontSize:"25px"}} />
                 </button>
               </div>
             </div>

@@ -1,15 +1,21 @@
 .offerspage .card{
     height: 400px;
+    background-color:  #FDF6F6;
+    margin-bottom: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .offerspage .card h2 svg{
-    color: #087FFF ;
+    color: red;
+}
+.offerspage .card h2{
+    color: #1868ae;
 }
 .offerspage .card p{
     color: red;
     font-size: 10px;
 }
 .offerspage .card .reference button{
-    background-color: #087FFF;
+    background-color: red;
     color: white;
     border: none;
     border-radius: 5px;
@@ -22,9 +28,9 @@
 }
 
 .offerspage .card .applybtn{
-    background-color: red;
-    color: white;
-    border: none;
+    background-color: white;
+    color: red;
+    border: 1px solid  red;
     border-radius: 5px;
     padding: 10px;
 }
@@ -35,7 +41,7 @@
     flex-direction: column;
 }
 .offerspage .card .qrcode h2{
-    color: #087FFF;
+    color: red;
     font-size: 20px;
 }
 .offerspage .card .qrcode img{
@@ -43,8 +49,7 @@
     width: 150px;
 }
 .offerspage .card .qrcode button{
-    background-color: #087FFF;
-    color: black;
+    
     border-radius: 5px;
     border: none;
     padding: 5px;

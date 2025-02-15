@@ -1,5 +1,5 @@
 .emi h2{
-    color: #087FFF;
+    color: #1868ae;
     text-align: start;
 }
 .emi .emi-btns{
@@ -9,19 +9,19 @@
     gap: 10px;
 }
 .emi .emi-btns button{
-    height: 90px;
-    width: 200px;
+    height: 80px;
+    width: 250px;
     border-radius: 5px;
-    background-color: #087FFF;
+    background-color: #f6e1d1;
     border: none;
 }
 .emi .emi-btns h2{
     font-size: 25px;
-    color: white;
+    color: #097770;
 }
 .emi .emi-btns p{
     font-size: 13px;
-    color: black;
+    color: #500472;
     text-align: start;
     padding: 0;
 }
@@ -29,7 +29,15 @@
     margin-top: -100px;
     margin-left: -100px;
 }
+.emi .form_sumbit button {
+    background-color:#1868ae;
+    color: white;
+    border-radius: 5px;
+}
 @media screen and (max-width: 768px){
+    .emi{
+        margin-bottom: 100px;
+    }
     .emi .emi-btns button{
         height: 100px;
     }

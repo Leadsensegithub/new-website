@@ -1,3 +1,14 @@
+
+.home .reg{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .home .reg h4{
+       color: #1868ae;
+    } 
+
 .home .card{
     display: flex;
     align-items: center;
@@ -5,31 +16,58 @@
     padding: 5px;
     width: 250px;
     margin-left: 80px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .home .card img{
     width: 120px;
     height: 150px;
 }
 .home .card {
-    background-color: #087FFF;
-    border: 1px solid white;
+    background-color:#d9a5b3;
+    border: 1px solid black;
     border-radius: 5px;
+    color:#023047;
 }
 .home .card h2{
-    color: white;
+    color: red;
     font-size: 20px;
 }
 .home .card p{
-    color:white;
+    color: #1868ae;
     padding-top: 20px;
+    font-weight: bold;
 }
 .home .card .btn{
-    color: white;
+    color:#1868ae;
+}
+
+.home .cvcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home .cvcard button{
+    margin-left: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color:white;
+    border: 1px solid #1868ae ;
+    padding: 8px;
+    color:darkblue;
+    font-size: 12px;
 }
 @media only screen and (max-width: 900px) {
     .home .card{
          margin-left: 20px;
          width: 250px;
+         height: auto;
+         margin-bottom: 55px;
     }
     .home .card img{}
+
+    .home .cvcard{
+        margin-top: 30px;
+    }
 }

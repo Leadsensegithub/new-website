@@ -107,11 +107,15 @@ function DashboardHome() {
         {/* <div className="col-lg-12"> */}
       
 
-        <div className="col-lg-7">
+        <div className="col-lg-7 mt-5">
             <div className="reg">
               <div className="registration-container mt-5">
                 <div className="row">
                   <div className="col-lg-12 col-sm-12 col-12">
+                    {/* <div className="card" style={{color:"white"}}>
+                      <h5>Profile Details</h5>
+                      <h6>Welcome to College All</h6>
+                    </div> */}
                     <h4 className="text-center">Contact Details</h4>
                   </div>
 
@@ -206,8 +210,10 @@ function DashboardHome() {
                   <div className="col-lg-12 col-sm-12 col-12 mt-3">
                     <div className="form_sumbit">
                       <button
-                        className="btn btn-primary"
+                        className="btn"
                         onClick={handleSubmit}
+                        style={{backgroundColor:"#1868ae",color:"white"
+                        }}
                       >
                         Submit
                       </button>
@@ -218,28 +224,32 @@ function DashboardHome() {
             </div>
           </div>
         
-
-        <div className="col-lg-4 mt-5">
+            
+        <div className="col-lg-4 mt-3">
+          <div className="cvcard">
+        <button className="download mb-2"><FaDownload /> Download </button>
           <div className="card">
-            <h2 className="mt-3">CV Premium Card  <FaDownload />
+            <h2 className="mt-3 mb-2">CV Premium Card 
             </h2>
             <div className="card">
-            <img src={Assets?.Logo} class="card-img-top" alt="..." />
+              <h2  className="mt-2" style={{color:"#1868ae"}}>College All</h2>
+              <img src={Assets?.Logo} class="card-img-top" alt="..." />
             <div className="card-body">
-              <h5
+              {/* <h5
                 className="card-title text-center"
-                style={{ color: "white",fontSize:"25px" }}
+                style={{ color: "black",fontSize:"25px" }}
               >
                 College ALL
-              </h5>
-              <p className="mt-4">clgwebsite@gmail.com</p>
+              </h5> */}
+              <p className="">clgwebsite@gmail.com</p>
               <a href="#" className="btn">
-                +91 9087878687686
+                +91 9087878687
               </a>
               </div>
             </div>
           </div>
           </div>
+        </div>
         </div>
       </div>
     

@@ -1,11 +1,18 @@
 .enrollment h2{
-    color:#087FFF ;
+    color:#1868ae ;
 }
+.enrollment .card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
 .enrollment .program .card h6{
     color:#087FFF ;
 }
 .enrollment .cv h4{
-    color:#087FFF ;
+    color:#1868ae;
+}
+.enrollment .card h6{
+    color: red;
 }
 .enrollment .cv .card{
     display: flex;
@@ -31,5 +38,8 @@
 @media screen and (max-width: 768px){
     .cv .card{
         margin-bottom: 10px;
+    }
+    .enrollment{
+        margin-bottom: 55px;
     }
 }

@@ -342,7 +342,7 @@ function RegForm() {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="mobile col-lg-6">
                 <div className="university-container">
                   <h4>
                     Fill in your details now to <br></br>
