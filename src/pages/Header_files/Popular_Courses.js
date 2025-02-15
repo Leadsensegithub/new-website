@@ -197,7 +197,7 @@ function Popular_Courses() {
 
   return (
     <div className="course">
-      <h2>Top Recommendation</h2>
+      <h2>Recommendation</h2>
       <div className="course-slider">
         <div className="slider-container mt-4">
           <Slider {...settings}>
@@ -288,11 +288,11 @@ function Popular_Courses() {
                           src={data.university_img}
                           alt={data.university_name}
                         />
-                        <h5 >{data.course_name}</h5>
+                        <h5 style={{ backgroundColor: "blue",color:"white",padding:"10px" }} >{data.course_name}</h5>
                         <h6>{data.university_name}</h6>
                         <h6>{data.duration}</h6>
                         <h6>{data.date}</h6>
-                        <h5 style={{color:"#087FFF"}}>{data.rank}</h5>
+                        <h5 style={{ color: "#087FFF" }}>{data.rank}</h5>
                       </div>
                     </div>
                   </div>

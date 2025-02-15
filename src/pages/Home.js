@@ -16,25 +16,25 @@ function Home() {
         <div className="col-lg-12">
           <Home_header />
         </div>
-        <div className="col-lg-12">
+        <div className="col-lg-12 mt-5">
           <Popular_Courses />
         </div>
         <div className="col-lg-12">
           <Uni_register />
         </div>
-        <div className="col-lg-12">
+        <div className="col-lg-12 mt-5">
           <Academic_counsellor />
         </div>
-        <div className="col-lg-12">
-          <Blog />
-        </div>
-        <div className="col-lg-12">
+        <div className="col-lg-12 mt-5">
           <Student_alumni />
         </div>
-        <div className="col-lg-12">
+        <div className="col-lg-12 mt-5">
+          <Blog />
+        </div>
+        <div className="col-lg-12 mt-5">
           <Faq />
         </div>
-        
+
 
       </div>
 
