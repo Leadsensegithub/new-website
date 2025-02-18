@@ -1,0 +1,24 @@
+.explore_more_body {
+    padding: 20px
+}
+
+.explore_more_body .list_out_courses .dree {
+    padding: 10px 10px;
+    border: 1px solid rgb(209, 209, 209);
+    margin: 5px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.explore_more_body .list_out_courses .active {
+    padding: 10px 5px;
+    background-color: blue;
+    margin: 5px 0px;
+    color: white;
+}
+
+.explore_more_body .list_out_courses {
+    height: 450px;
+    text-align: start;
+    overflow-y: scroll;
+}

@@ -3,6 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import Assets from "../Assets/Assets";
 import Popular_Courses from "../pages/Header_files/Popular_Courses";
+import ExploreMore from "./ExploreMore";
 
 const Navbar = () => {
 
@@ -52,7 +53,7 @@ const Navbar = () => {
       background: "none",
       color: "#000",
       border: "1px solid #ccc",
-   
+
       fontWeight: "500",
       padding: "0.5rem 1rem",
       cursor: "pointer",
@@ -140,10 +141,11 @@ const Navbar = () => {
       {isModalOpen && (
         <div style={styles.modalOverlay} onClick={closeModal}>
           <div style={styles.modalContent} onClick={(e) => e.stopPropagation()}>
-            <button onClick={closeModal} style={styles.closeButton}>Close</button>
-            <div>
-              Hello
+
+            <div className="exp_more">
+              <ExploreMore />
             </div>
+            {/* <button onClick={closeModal} style={styles.closeButton}>Close</button> */}
           </div>
         </div>
       )}
