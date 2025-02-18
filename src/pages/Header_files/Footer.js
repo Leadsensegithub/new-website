@@ -68,6 +68,9 @@ function Footer() {
                                     <div><h6>Staff Login</h6></div>
                                     <div><h6>Admission</h6></div>
                                     <div>< h6 onClick={()=>navigate("./sitemap")}>Sitemap</h6></div>
+                                    <div>< h6 onClick={()=>navigate("/UGCourses")}>UGCourse</h6></div>
+                                    <div>< h6 onClick={()=>navigate("/PGCourses")}>PGCourse</h6></div>
+
 
                                 </div>
 

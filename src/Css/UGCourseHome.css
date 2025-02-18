@@ -1,0 +1,37 @@
+.ugsidebar ul{
+    color: #1868ae;
+    /* Default width for desktop */
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 20px;
+    z-index: 1000;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s;
+}
+.ugsidebarList li{
+    list-style: none;
+    padding: 20px;
+}
+.ugsidebar .ugsidebarList li:hover{
+    background-color: #1868ae;
+    color: white;
+}
+.UGhome .card{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ugsidebar h6{
+    color: #1868ae;
+}
+.ugsidebar .card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* }
+.ugsidebar .ugsidebarList .active{
+    background-color: blue;
+    color: white;
+} */
