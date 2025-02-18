@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import '../Css/explore_more_body.css'
 import Assets from "../Assets/Assets";
 import axiosInstance from "./axiosInstance";
+
 
 function ExploreMore() {
     const [activeIndex, setActiveIndex] = useState([]);
@@ -122,6 +123,11 @@ function ExploreMore() {
         },
     ]);
 
+
+    useEffect(()=>{
+        APifunction("MA")
+    },[])
+
     const degrees = ["ALL", "UG", "PG"];
 
     const courseNames = ["MA", "MBA", "MCA", "MCom", "MSc", "BA", "B.Com", "BBA", "BCA"];
@@ -159,10 +165,11 @@ function ExploreMore() {
     return (
         <>
             <div className="explore_more_body">
+            <p>UG & PG Degrees</p>
                 <div className="row">
                     <div className="col-lg-3">
-                        <div className="card">
-                            <div className="card-body">
+                        <div className="card courselists">
+                            <div className="card-body course-names" >
                                 <div className="list_out_courses">
                                     {courseNames?.map((degree, index) => (
                                         <div
@@ -180,14 +187,14 @@ function ExploreMore() {
                         </div>
                     </div>
                     <div className="col-lg-9">
-                        <div className="card" style={{ height: "500px", width: "650px",overflowY:"scroll" }}>
+                        <div className="card content">
                             <div className="card-body">
-                                <div className="card-container" style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
+                                <div className="card-container">
                                     {activeIndex?.map((data, index) => (
-                                        <div key={index} className="card-item" style={{ flex: '1 1 calc(33.33% - 16px)', boxSizing: 'border-box' }}>
-                                            <div className="card" style={{ height: "80px",display:"flex",justifyContent:"center",alignItems:"center",textAlign:"center",padding:"10px" }}>
+                                        <div key={index} className="card-item">
+                                            <div className="card uni-names">
 
-                                                <p style={{marginBottom:"0px"}}>{data?.name}</p>
+                                                <p>{data?.name}</p>
 
                                             </div>
                                         </div>
